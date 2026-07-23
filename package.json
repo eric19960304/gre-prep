@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "preview": "vite preview",
-    "build": "tsc -b && vite build && node scripts/prepare-sites-build.mjs",
+    "build": "tsc -b && vite build",
     "generate:practice": "node scripts/build-verbal-practice.mjs",
     "typecheck": "tsc -b --pretty false",
     "test": "vitest run",

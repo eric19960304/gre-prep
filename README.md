@@ -35,7 +35,7 @@ Then open **http://localhost:4173**.
 | `npm run typecheck` | Run strict TypeScript checking without emitting files |
 | `npm test` | Run all Vitest tests once |
 | `npm run test:watch` | Run Vitest in watch mode |
-| `npm run build` | Type-check and create an optimized production build in `dist/` |
+| `npm run build` | Type-check and create the GitHub Pages artifact in `docs/` |
 | `npm run preview` | Preview the production build locally (default port 4173) |
 
 Preview the generated production build with:
@@ -179,10 +179,27 @@ Export downloads the complete `VocabularyWord[]` collection, including review pr
 
 ## Production deployment
 
-Run:
+The production build is configured for GitHub Pages and writes directly to the repository's `docs/` folder:
 
 ```bash
 npm run build
 ```
 
-Deploy the generated `dist/` directory to any static host such as Cloudflare Pages, GitHub Pages, Netlify, or Vercel. No server environment variables, database, or API routes are required.
+The Vite base path is relative (`./`), so generated assets work for a project site such as `https://username.github.io/repository/` and for a custom domain. The build also includes `docs/.nojekyll`.
+
+In the GitHub repository:
+
+1. Commit the generated `docs/` directory to the `main` branch.
+2. Open **Settings → Pages**.
+3. Under **Build and deployment**, select **Deploy from a branch**.
+4. Choose the `main` branch and `/docs` folder, then save.
+
+GitHub Pages will publish the contents of `docs/`. No server environment variables, database, or API routes are required. Vocabulary progress and question history remain stored in each visitor's browser.
+
+To preview the compiled site locally after building:
+
+```bash
+npm run preview
+```
+
+Vite preview runs at **http://localhost:4173** by default.
