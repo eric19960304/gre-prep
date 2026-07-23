@@ -177,12 +177,12 @@ export function PracticePage() {
   }
 
   return (
-    <main className="page-container pb-28 md:pb-12">
+    <main className="practice-page page-container pb-28 md:pb-12">
       <div className="flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
         <div>
           <p className="eyebrow"><Sparkles size={13} />GRE verbal reasoning</p>
           <h1 className="page-title">Practice the reasoning, not just the words.</h1>
-          <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted dark:text-stone-400">
+          <p className="practice-intro mt-3 max-w-2xl text-muted dark:text-stone-400">
             100 original GRE-style questions with immediate explanations and device-local attempt history.
           </p>
         </div>
@@ -249,7 +249,7 @@ export function PracticePage() {
                         {attempt.isCorrect ? 'Correct' : 'Incorrect'}
                       </span>
                     </div>
-                    <p className="mt-4 line-clamp-2 text-sm leading-relaxed text-muted dark:text-stone-300">
+                    <p className="practice-intro mt-4 line-clamp-2 text-muted dark:text-stone-300">
                       {question.stem || question.text?.replace(/\{\{blank\d+\}\}/g, '_____')}
                     </p>
                     <p className="mt-3 line-clamp-2 text-xs leading-relaxed text-muted">
@@ -342,14 +342,14 @@ export function PracticePage() {
                       <BookOpenText size={17} />
                       <p className="text-[10px] font-black uppercase tracking-[.18em]">{currentPassage.title}</p>
                     </div>
-                    <p className="mt-4 font-display text-[1.05rem] leading-8 text-ink dark:text-stone-100">{currentPassage.text}</p>
+                    <p className="practice-passage mt-4 text-ink dark:text-stone-100">{currentPassage.text}</p>
                   </section>
                 )}
 
                 <div className="p-5 sm:p-7">
                   <p className="text-[10px] font-black uppercase tracking-[.15em] text-muted">{currentQuestion.directions}</p>
-                  {currentQuestion.stem && <h2 className="mt-4 font-display text-xl font-bold leading-relaxed text-ink dark:text-white sm:text-2xl">{currentQuestion.stem}</h2>}
-                  {currentQuestion.text && <h2 className="mt-4 font-display text-xl font-bold leading-[1.75] text-ink dark:text-white sm:text-2xl"><BlankText text={currentQuestion.text} /></h2>}
+                  {currentQuestion.stem && <h2 className="practice-question mt-4 text-ink dark:text-white">{currentQuestion.stem}</h2>}
+                  {currentQuestion.text && <h2 className="practice-question mt-4 text-ink dark:text-white"><BlankText text={currentQuestion.text} /></h2>}
 
                   <div className="mt-7 space-y-6">
                     {currentQuestion.responseGroups.map((group) => {
@@ -386,7 +386,7 @@ export function PracticePage() {
                                   aria-checked={isSelected}
                                   disabled={Boolean(submittedAttempt) || reachedLimit}
                                   onClick={() => selectChoice(group.id, choice.id)}
-                                  className={`flex min-h-14 w-full items-center gap-3 rounded-2xl border p-3.5 text-left text-sm font-semibold leading-relaxed transition ${resultClass} ${reachedLimit ? 'cursor-not-allowed opacity-45' : ''}`}
+                                  className={`practice-choice flex min-h-14 w-full items-center gap-3 rounded-2xl border p-3.5 text-left transition ${resultClass} ${reachedLimit ? 'cursor-not-allowed opacity-45' : ''}`}
                                 >
                                   <span className={`grid size-7 shrink-0 place-items-center rounded-lg border text-[11px] font-black ${isSelected ? 'border-accent bg-accent text-white' : submittedAttempt && isCorrectChoice ? 'border-emerald-600 bg-emerald-600 text-white' : 'border-ink/12 bg-white/60 text-muted dark:border-white/15 dark:bg-white/5'}`}>{choice.id}</span>
                                   <span className="min-w-0 flex-1">{choice.text}</span>
@@ -417,7 +417,7 @@ export function PracticePage() {
                               </p>
                             ))}
                           </div>
-                          <p className="mt-4 text-sm leading-relaxed text-muted dark:text-stone-300">{currentQuestion.explanation}</p>
+                          <p className="practice-explanation mt-4 text-muted dark:text-stone-300">{currentQuestion.explanation}</p>
                         </div>
                       </div>
                     </section>
