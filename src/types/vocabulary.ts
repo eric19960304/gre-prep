@@ -1,0 +1,58 @@
+export type VocabularyWord = {
+  id: string
+  word: string
+  definition: string
+  chineseMeaning?: string
+  exampleSentence?: string
+  notes?: string
+  tags: string[]
+  priorityRank?: number
+  createdAt: string
+  updatedAt: string
+  reviewLevel: number
+  nextReviewAt: string
+  viewedAt?: string
+  lastReviewedAt?: string
+  correctCount: number
+  incorrectCount: number
+  isMastered: boolean
+}
+
+export type VocabularyDraft = Pick<
+  VocabularyWord,
+  'word' | 'definition' | 'chineseMeaning' | 'exampleSentence' | 'notes' | 'tags'
+>
+
+export type SeedVocabularyWord = {
+  rank: number
+  word: string
+  partsOfSpeech: string[]
+  definition: string
+  chineseMeaning: string
+  exampleSentence: string
+}
+
+export type ReviewRating = 'again' | 'hard' | 'good' | 'easy'
+export type WordStatus = 'all' | 'due' | 'new' | 'learning' | 'mastered'
+export type SortOption = 'priority' | 'alphabetical' | 'recent' | 'nextReview' | 'incorrect'
+
+export type ReviewEvent = {
+  id: string
+  wordId: string
+  rating: ReviewRating
+  reviewedAt: string
+}
+
+export type StoredVocabularyData = {
+  version: 1
+  seedRevision?: number
+  words: VocabularyWord[]
+  reviewHistory: ReviewEvent[]
+}
+
+export type WordFilters = {
+  query: string
+  tag: string
+  status: WordStatus
+  sort: SortOption
+}
