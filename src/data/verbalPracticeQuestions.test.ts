@@ -65,8 +65,10 @@ describe('GRE verbal practice bank', () => {
   })
 
   it('clearly discloses that the questions are original practice material', () => {
+    expect(bank.title).toContain('Choco GRE')
     expect(bank.disclosure).toContain('original GRE-style practice')
     expect(bank.disclosure).toContain('not official ETS questions')
+    expect(bank.questions.every((question) => question.source.includes('Choco GRE'))).toBe(true)
     expect(bank.questions.every((question) => question.explanation.length > 20)).toBe(true)
   })
 })

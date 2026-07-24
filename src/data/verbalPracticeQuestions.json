@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "title": "Lexilo GRE Verbal Reasoning Practice Bank",
-  "disclosure": "These 100 questions are original GRE-style practice created for Lexilo. They are not official ETS questions or recalled live-test content.",
+  "title": "Choco GRE Verbal Reasoning Practice Bank",
+  "disclosure": "These 100 questions are original GRE-style practice created for Choco GRE. They are not official ETS questions or recalled live-test content.",
   "formatReference": "https://www.ets.org/gre/test-takers/general-test/prepare/content/verbal-reasoning.html",
   "counts": {
     "total": 100,
@@ -160,7 +160,7 @@
         "main idea",
         "argument structure"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-002",
@@ -203,7 +203,7 @@
         "detail",
         "multiple evidence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-003",
@@ -253,7 +253,7 @@
         "function",
         "evidence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-004",
@@ -295,7 +295,7 @@
         "inference",
         "source evaluation"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-005",
@@ -345,7 +345,7 @@
         "main idea",
         "qualification"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-006",
@@ -388,7 +388,7 @@
         "inference",
         "scope"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-007",
@@ -438,7 +438,7 @@
         "author position",
         "qualification"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-008",
@@ -481,7 +481,7 @@
         "detail",
         "argument evaluation"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-009",
@@ -531,7 +531,7 @@
         "central claim",
         "contrast"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-010",
@@ -573,7 +573,7 @@
         "inference",
         "rhetorical analysis"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-011",
@@ -623,7 +623,7 @@
         "main idea",
         "scientific reasoning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-012",
@@ -666,7 +666,7 @@
         "inference",
         "evidence synthesis"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-013",
@@ -716,7 +716,7 @@
         "main idea",
         "generalization"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-014",
@@ -758,7 +758,7 @@
         "detail",
         "logical implication"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-015",
@@ -808,7 +808,7 @@
         "viewpoint",
         "argument structure"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-016",
@@ -851,7 +851,7 @@
         "multiple viewpoints",
         "inference"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-017",
@@ -901,7 +901,7 @@
         "main idea",
         "methodology"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-018",
@@ -944,7 +944,7 @@
         "detail",
         "evidence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-019",
@@ -994,7 +994,7 @@
         "main idea",
         "conceptual distinction"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-020",
@@ -1037,7 +1037,7 @@
         "inference",
         "application"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-021",
@@ -1087,7 +1087,7 @@
         "main idea",
         "scientific method"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-022",
@@ -1129,7 +1129,7 @@
         "detail",
         "scope"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-023",
@@ -1179,7 +1179,7 @@
         "conclusion",
         "synthesis"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-024",
@@ -1221,7 +1221,7 @@
         "inference",
         "contrast"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-025",
@@ -1271,7 +1271,7 @@
         "main idea",
         "evaluation criteria"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-026",
@@ -1313,7 +1313,7 @@
         "inference",
         "qualification"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-027",
@@ -1363,7 +1363,7 @@
         "argument response",
         "main idea"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-028",
@@ -1405,7 +1405,7 @@
         "inference",
         "author stance"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-029",
@@ -1455,7 +1455,7 @@
         "main idea",
         "ethical reasoning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-030",
@@ -1498,7 +1498,7 @@
         "detail",
         "inference"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-031",
@@ -1548,7 +1548,7 @@
         "main idea",
         "quantitative reasoning in prose"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-032",
@@ -1591,7 +1591,7 @@
         "inference",
         "policy evaluation"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-033",
@@ -1641,7 +1641,7 @@
         "main idea",
         "distinction"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-034",
@@ -1684,7 +1684,7 @@
         "detail",
         "causal reasoning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-035",
@@ -1734,7 +1734,7 @@
         "main idea",
         "classification"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-036",
@@ -1777,7 +1777,7 @@
         "detail",
         "uncertainty"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-037",
@@ -1827,7 +1827,7 @@
         "main idea",
         "trade-off"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-038",
@@ -1870,7 +1870,7 @@
         "inference",
         "application"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-039",
@@ -1920,7 +1920,7 @@
         "main idea",
         "qualification"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "rc-040",
@@ -1963,7 +1963,7 @@
         "inference",
         "detail"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-001",
@@ -2012,7 +2012,7 @@
         "context clues",
         "sentence logic"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-002",
@@ -2061,7 +2061,7 @@
         "context clues",
         "sentence logic"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-003",
@@ -2110,7 +2110,7 @@
         "context clues",
         "sentence logic"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-004",
@@ -2159,7 +2159,7 @@
         "context clues",
         "sentence logic"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-005",
@@ -2208,7 +2208,7 @@
         "context clues",
         "sentence logic"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-006",
@@ -2257,7 +2257,7 @@
         "context clues",
         "sentence logic"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-007",
@@ -2306,7 +2306,7 @@
         "context clues",
         "sentence logic"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-008",
@@ -2355,7 +2355,7 @@
         "context clues",
         "sentence logic"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-009",
@@ -2404,7 +2404,7 @@
         "context clues",
         "sentence logic"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-010",
@@ -2453,7 +2453,7 @@
         "context clues",
         "sentence logic"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-011",
@@ -2517,7 +2517,7 @@
         "context clues",
         "multi-blank coherence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-012",
@@ -2581,7 +2581,7 @@
         "context clues",
         "multi-blank coherence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-013",
@@ -2645,7 +2645,7 @@
         "context clues",
         "multi-blank coherence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-014",
@@ -2709,7 +2709,7 @@
         "context clues",
         "multi-blank coherence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-015",
@@ -2773,7 +2773,7 @@
         "context clues",
         "multi-blank coherence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-016",
@@ -2837,7 +2837,7 @@
         "context clues",
         "multi-blank coherence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-017",
@@ -2901,7 +2901,7 @@
         "context clues",
         "multi-blank coherence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-018",
@@ -2965,7 +2965,7 @@
         "context clues",
         "multi-blank coherence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-019",
@@ -3029,7 +3029,7 @@
         "context clues",
         "multi-blank coherence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-020",
@@ -3093,7 +3093,7 @@
         "context clues",
         "multi-blank coherence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-021",
@@ -3180,7 +3180,7 @@
         "context clues",
         "multi-blank coherence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-022",
@@ -3267,7 +3267,7 @@
         "context clues",
         "multi-blank coherence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-023",
@@ -3354,7 +3354,7 @@
         "context clues",
         "multi-blank coherence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-024",
@@ -3441,7 +3441,7 @@
         "context clues",
         "multi-blank coherence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-025",
@@ -3528,7 +3528,7 @@
         "context clues",
         "multi-blank coherence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-026",
@@ -3615,7 +3615,7 @@
         "context clues",
         "multi-blank coherence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-027",
@@ -3702,7 +3702,7 @@
         "context clues",
         "multi-blank coherence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-028",
@@ -3789,7 +3789,7 @@
         "context clues",
         "multi-blank coherence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-029",
@@ -3876,7 +3876,7 @@
         "context clues",
         "multi-blank coherence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "tc-030",
@@ -3963,7 +3963,7 @@
         "context clues",
         "multi-blank coherence"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-001",
@@ -4017,7 +4017,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-002",
@@ -4071,7 +4071,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-003",
@@ -4125,7 +4125,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-004",
@@ -4179,7 +4179,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-005",
@@ -4233,7 +4233,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-006",
@@ -4287,7 +4287,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-007",
@@ -4341,7 +4341,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-008",
@@ -4395,7 +4395,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-009",
@@ -4449,7 +4449,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-010",
@@ -4503,7 +4503,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-011",
@@ -4557,7 +4557,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-012",
@@ -4611,7 +4611,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-013",
@@ -4665,7 +4665,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-014",
@@ -4719,7 +4719,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-015",
@@ -4773,7 +4773,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-016",
@@ -4827,7 +4827,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-017",
@@ -4881,7 +4881,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-018",
@@ -4935,7 +4935,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-019",
@@ -4989,7 +4989,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-020",
@@ -5043,7 +5043,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-021",
@@ -5097,7 +5097,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-022",
@@ -5151,7 +5151,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-023",
@@ -5205,7 +5205,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-024",
@@ -5259,7 +5259,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-025",
@@ -5313,7 +5313,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-026",
@@ -5367,7 +5367,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-027",
@@ -5421,7 +5421,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-028",
@@ -5475,7 +5475,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-029",
@@ -5529,7 +5529,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     },
     {
       "id": "se-030",
@@ -5583,7 +5583,7 @@
         "sentence logic",
         "equivalent meaning"
       ],
-      "source": "Original GRE-style practice created for Lexilo"
+      "source": "Original GRE-style practice created for Choco GRE"
     }
   ]
 }

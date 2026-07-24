@@ -32,7 +32,7 @@ export function ProgressPage() {
       <section className="mt-7 grid grid-cols-2 gap-3 lg:grid-cols-4" aria-label="Vocabulary overview">
         <ProgressCard label="Total words" value={words.length.toLocaleString()} detail="In your lexicon" icon={BookOpen} />
         <ProgressCard label="New" value={counts.new.toLocaleString()} detail="Ready to learn" icon={Sparkles} tone="blue" />
-        <ProgressCard label="Learning" value={counts.learning.toLocaleString()} detail="In active rotation" icon={Brain} tone="orange" />
+        <ProgressCard label="Learning" value={counts.learning.toLocaleString()} detail="In active rotation" icon={Brain} tone="brown" />
         <ProgressCard label="Mastered" value={counts.mastered.toLocaleString()} detail={`${mastery}% of collection`} icon={CheckCircle2} tone="green" progress={mastery} />
       </section>
 

@@ -1,6 +1,6 @@
-# Lexilo — GRE Vocabulary & Verbal Practice
+# Choco GRE — Vocabulary & Verbal Practice
 
-Lexilo is a mobile-first, browser-based GRE preparation tool. It ships with a prepared list of 1,000 GRE words ranked by study priority and 100 original Verbal Reasoning practice questions. It stores learning progress locally, schedules vocabulary reviews, records question attempts, and works without a backend or account.
+Choco GRE is a mobile-first, browser-based GRE preparation tool. It ships with a prepared list of 1,000 GRE words ranked by study priority and 100 original Verbal Reasoning practice questions. It stores learning progress locally, schedules vocabulary reviews, records question attempts, and works without a backend or account.
 
 ## Run it locally
 
@@ -88,6 +88,8 @@ Every later visit loads that saved snapshot instead of rebuilding the seed. Edit
 
 The light/dark preference is stored separately under `lexilo:theme`.
 
+The internal `lexilo:*` storage-key prefix is intentionally retained after the Choco GRE rename so existing learners keep their saved vocabulary progress, theme preference, and practice history.
+
 ## What the vocabulary rank means
 
 `rank` is an evidence-weighted **study-priority rank**: rank 1 should be studied before rank 2. It is not an official count of appearances on live GRE tests. ETS does not publish a complete 1,000-word frequency table for operational test questions, so an exact claim of that kind would not be supportable.
@@ -124,7 +126,7 @@ The bank contains:
 
 Every question contains a stable ID, sequence number, difficulty, directions, response groups, correct answer, explanation, skills, and source disclosure. Reading Comprehension questions reference one of 20 reusable passages. The generic `responseGroups` representation lets the scoring utility handle single answers, multiple answers, and independent blanks without type-specific answer hacks.
 
-The format follows the structures described in the [official ETS Verbal Reasoning overview](https://www.ets.org/gre/test-takers/general-test/prepare/content/verbal-reasoning.html). All question wording, passages, distractors, answer keys, and explanations in this repository are original GRE-style practice created for Lexilo. They are not official ETS questions, copied commercial questions, or recalled live-test content.
+The format follows the structures described in the [official ETS Verbal Reasoning overview](https://www.ets.org/gre/test-takers/general-test/prepare/content/verbal-reasoning.html). All question wording, passages, distractors, answer keys, and explanations in this repository are original GRE-style practice created for Choco GRE. They are not official ETS questions, copied commercial questions, or recalled live-test content.
 
 On the Practice page, the user can:
 
@@ -175,7 +177,7 @@ The Words page accepts a UTF-8 `.json` file containing an array. A minimal recor
 
 Only `word` and `definition` are required. Missing IDs, timestamps, and review fields receive safe defaults. Invalid records are skipped, and duplicates are detected case-insensitively both within the import and against existing words.
 
-Export downloads the complete `VocabularyWord[]` collection, including review progress. That exported file can be imported into another Lexilo installation.
+Export downloads the complete `VocabularyWord[]` collection, including review progress. That exported file can be imported into another Choco GRE installation.
 
 ## Production deployment
 

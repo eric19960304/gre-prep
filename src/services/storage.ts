@@ -91,7 +91,7 @@ export const vocabularyStorage = {
     const url = URL.createObjectURL(blob)
     const anchor = document.createElement('a')
     anchor.href = url
-    anchor.download = `lexilo-vocabulary-${new Date().toISOString().slice(0, 10)}.json`
+    anchor.download = `choco-gre-vocabulary-${new Date().toISOString().slice(0, 10)}.json`
     anchor.click()
     URL.revokeObjectURL(url)
   },

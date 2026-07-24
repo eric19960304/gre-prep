@@ -5,7 +5,7 @@ export function ProgressCard({ label, value, detail, icon: Icon, tone = 'neutral
   value: string | number
   detail?: string
   icon: LucideIcon
-  tone?: 'neutral' | 'orange' | 'green' | 'blue'
+  tone?: 'neutral' | 'brown' | 'green' | 'blue'
   progress?: number
 }) {
   return (

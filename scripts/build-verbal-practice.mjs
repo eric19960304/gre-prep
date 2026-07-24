@@ -1237,7 +1237,7 @@ for (const passage of rcPassages) {
       correctAnswer: { main: question.answer.map((index) => choiceIds[index]) },
       explanation: question.explanation,
       skills: question.skills,
-      source: 'Original GRE-style practice created for Lexilo',
+      source: 'Original GRE-style practice created for Choco GRE',
     })
     sequence += 1
   })
@@ -1262,7 +1262,7 @@ tcSingle.forEach((question, index) => {
     correctAnswer: { blank1: [choiceIds[question.answer]] },
     explanation: question.explanation,
     skills: ['context clues', 'sentence logic'],
-    source: 'Original GRE-style practice created for Lexilo',
+    source: 'Original GRE-style practice created for Choco GRE',
   })
   sequence += 1
 })
@@ -1289,7 +1289,7 @@ tcDouble.forEach((question, index) => {
     ])),
     explanation: question.explanation,
     skills: ['context clues', 'multi-blank coherence'],
-    source: 'Original GRE-style practice created for Lexilo',
+    source: 'Original GRE-style practice created for Choco GRE',
   })
   sequence += 1
 })
@@ -1316,7 +1316,7 @@ tcTriple.forEach((question, index) => {
     ])),
     explanation: question.explanation,
     skills: ['context clues', 'multi-blank coherence'],
-    source: 'Original GRE-style practice created for Lexilo',
+    source: 'Original GRE-style practice created for Choco GRE',
   })
   sequence += 1
 })
@@ -1340,7 +1340,7 @@ sentenceEquivalence.forEach((question, index) => {
     correctAnswer: { main: question.answer.map((answer) => choiceIds[answer]) },
     explanation: question.explanation,
     skills: ['sentence logic', 'equivalent meaning'],
-    source: 'Original GRE-style practice created for Lexilo',
+    source: 'Original GRE-style practice created for Choco GRE',
   })
   sequence += 1
 })
@@ -1348,8 +1348,8 @@ sentenceEquivalence.forEach((question, index) => {
 const passages = rcPassages.map(({ id, title, text }) => ({ id, title, text }))
 const bank = {
   version: 1,
-  title: 'Lexilo GRE Verbal Reasoning Practice Bank',
-  disclosure: 'These 100 questions are original GRE-style practice created for Lexilo. They are not official ETS questions or recalled live-test content.',
+  title: 'Choco GRE Verbal Reasoning Practice Bank',
+  disclosure: 'These 100 questions are original GRE-style practice created for Choco GRE. They are not official ETS questions or recalled live-test content.',
   formatReference: 'https://www.ets.org/gre/test-takers/general-test/prepare/content/verbal-reasoning.html',
   counts: {
     total: questions.length,
