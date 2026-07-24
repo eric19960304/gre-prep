@@ -28,7 +28,6 @@ import {
   formatPracticeResponse,
   getChoiceText,
   isPracticeAnswerComplete,
-  practiceTypeLabels,
   practiceTypeShortLabels,
 } from '../utils/practice'
 
@@ -205,23 +204,22 @@ export function PracticePage() {
         </div>
       </div>
 
-      <section className="mt-6 grid grid-cols-3 gap-2 sm:gap-3" aria-label="Practice progress">
-        <div className="surface-card p-4 sm:p-5">
-          <p className="detail-label">Answered</p>
-          <strong className="mt-2 block font-display text-3xl font-black text-ink dark:text-white">{uniqueAnswered}<span className="text-base text-muted">/100</span></strong>
-        </div>
-        <div className="surface-card p-4 sm:p-5">
-          <p className="detail-label">Accuracy</p>
-          <strong className="mt-2 block font-display text-3xl font-black text-ink dark:text-white">{accuracy}%</strong>
-        </div>
-        <div className="surface-card p-4 sm:p-5">
-          <p className="detail-label">Attempts</p>
-          <strong className="mt-2 block font-display text-3xl font-black text-ink dark:text-white">{attempts.length}</strong>
-        </div>
-      </section>
-
       {panel === 'history' ? (
         <section className="mt-6" aria-label="Answer history">
+          <div className="mb-6 grid grid-cols-3 gap-2 sm:gap-3" aria-label="Practice progress">
+            <div className="surface-card p-4 sm:p-5">
+              <p className="detail-label">Answered</p>
+              <strong className="mt-2 block font-display text-3xl font-black text-ink dark:text-white">{uniqueAnswered}<span className="text-base text-muted">/100</span></strong>
+            </div>
+            <div className="surface-card p-4 sm:p-5">
+              <p className="detail-label">Accuracy</p>
+              <strong className="mt-2 block font-display text-3xl font-black text-ink dark:text-white">{accuracy}%</strong>
+            </div>
+            <div className="surface-card p-4 sm:p-5">
+              <p className="detail-label">Attempts</p>
+              <strong className="mt-2 block font-display text-3xl font-black text-ink dark:text-white">{attempts.length}</strong>
+            </div>
+          </div>
           <div className="mb-4 flex items-center justify-between">
             <div>
               <p className="eyebrow"><History size={13} />Saved on this device</p>
@@ -275,10 +273,10 @@ export function PracticePage() {
         </section>
       ) : (
         <div className="mt-6 grid min-w-0 gap-5 lg:grid-cols-[17rem_minmax(0,1fr)] lg:items-start">
-          <aside className="surface-card min-w-0 p-4 lg:sticky lg:top-24" aria-label="Question navigator">
+          <aside className="surface-card min-w-0 p-4 lg:sticky lg:top-24" aria-label="Practice filters">
             <div className="flex items-center gap-2">
               <ListFilter className="text-accent" size={17} />
-              <h2 className="text-sm font-black text-ink dark:text-white">Question bank</h2>
+              <h2 className="text-sm font-black text-ink dark:text-white">Practice filters</h2>
               <span className="ml-auto text-[10px] font-bold text-muted">{filteredQuestions.length} shown</span>
             </div>
             <div className="scrollbar-none -mx-1 mt-4 flex gap-2 overflow-x-auto px-1 pb-1 lg:grid lg:grid-cols-2">
@@ -306,23 +304,6 @@ export function PracticePage() {
                 <option value="incorrect">Incorrect</option>
               </select>
             </label>
-            <div className="scrollbar-none mt-4 flex max-h-48 gap-1.5 overflow-x-auto pb-1 lg:grid lg:max-h-[28rem] lg:grid-cols-5 lg:overflow-y-auto lg:pr-1" aria-label="Question numbers">
-              {filteredQuestions.map((question) => {
-                const latest = latestAttemptByQuestion.get(question.id)
-                return (
-                  <button
-                    key={question.id}
-                    type="button"
-                    onClick={() => openQuestion(question.id)}
-                    aria-label={`Question ${question.number}, ${practiceTypeLabels[question.type]}${latest ? latest.isCorrect ? ', answered correctly' : ', answered incorrectly' : ''}`}
-                    aria-current={question.id === currentQuestion.id ? 'true' : undefined}
-                    className={`relative grid size-9 shrink-0 place-items-center rounded-lg text-[10px] font-black transition ${question.id === currentQuestion.id ? 'bg-accent text-white shadow-sm' : latest?.isCorrect ? 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300' : latest ? 'bg-red-100 text-red-800 dark:bg-red-950/40 dark:text-red-300' : 'bg-ink/[.045] text-muted hover:bg-ink/10 dark:bg-white/[.06] dark:text-stone-300'}`}
-                  >
-                    {question.number}
-                  </button>
-                )
-              })}
-            </div>
           </aside>
 
           {filteredQuestions.length ? (

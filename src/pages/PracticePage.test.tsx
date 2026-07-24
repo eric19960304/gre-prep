@@ -9,6 +9,9 @@ describe('PracticePage', () => {
   it('submits an answer, reveals the explanation, and saves it in history', async () => {
     render(<PracticePage />)
 
+    expect(screen.queryByLabelText('Practice progress')).not.toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: /Question 2, Reading Comprehension/ })).not.toBeInTheDocument()
+
     fireEvent.click(screen.getByRole('radio', { name: /Tree-planting plans should account/ }))
     fireEvent.click(screen.getByRole('button', { name: /Submit answer/ }))
 
@@ -20,6 +23,7 @@ describe('PracticePage', () => {
     })
 
     fireEvent.click(screen.getByRole('button', { name: /^History/ }))
+    expect(screen.getByLabelText('Practice progress')).toBeInTheDocument()
     expect(screen.getByText('Question 1 · RC')).toBeInTheDocument()
   })
 })
