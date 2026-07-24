@@ -19,7 +19,7 @@ describe('vocabularyStorage seed ranking', () => {
   it('migrates an existing seed word to the audited rank without losing progress', () => {
     const oldData: StoredVocabularyData = {
       version: 1,
-      seedRevision: 3,
+      seedRevision: 4,
       words: [makeWord({
         word: 'capricious',
         tags: ['GRE 1000', 'Top 300', 'adjective'],

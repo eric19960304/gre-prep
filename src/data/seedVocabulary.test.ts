@@ -33,24 +33,26 @@ describe('ranked seed vocabulary', () => {
   it('analyzes every word and stores only structured, useful affix clues', () => {
     expect(seedVocabulary.every((item) => Array.isArray(item.commonAffixes))).toBe(true)
     expect(seedVocabulary.filter((item) => item.commonAffixes.length)).toHaveLength(438)
-    expect(seedVocabulary.flatMap((item) => item.commonAffixes).map((affix) => affix.meaning).join(' ')).not.toContain('asunder')
+    const affixMeanings = seedVocabulary.flatMap((item) => item.commonAffixes).map((affix) => affix.meaning).join(' ')
+    expect(affixMeanings).not.toContain('asunder')
+    expect(affixMeanings).not.toMatch(/\bor\b/i)
 
     expect(seedVocabulary.find((item) => item.word === 'antipathy')?.commonAffixes).toEqual([
       {
         type: 'prefix',
         form: 'anti-',
-        meaning: 'against or opposite to',
+        meaning: 'against; opposite to',
       },
       {
         type: 'suffix',
         form: '-pathy',
-        meaning: 'feeling or disease',
+        meaning: 'feeling; disease',
       },
     ])
     expect(seedVocabulary.find((item) => item.word === 'fanciful')?.commonAffixes).toContainEqual({
       type: 'suffix',
       form: '-ful',
-      meaning: 'full of or having',
+      meaning: 'full of; having',
     })
   })
 })

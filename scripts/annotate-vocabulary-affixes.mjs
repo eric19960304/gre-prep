@@ -9,7 +9,7 @@ const sourcePath = resolve(projectRoot, 'gre_vocabulary_1000_zh_TW.json')
 const prefixRules = [
   {
     form: 'a-/an-',
-    meaning: 'not or without',
+    meaning: 'not; without',
     words: ['anarchy', 'anomalous', 'anomaly', 'apathetic', 'apathy', 'amorphous'],
   },
   {
@@ -19,7 +19,7 @@ const prefixRules = [
   },
   {
     form: 'anti-',
-    meaning: 'against or opposite to',
+    meaning: 'against; opposite to',
     words: ['antipathy', 'antithetical'],
   },
   {
@@ -29,7 +29,7 @@ const prefixRules = [
   },
   {
     form: 'bene-',
-    meaning: 'good or well',
+    meaning: 'good; well',
     words: ['beneficent'],
   },
   {
@@ -39,42 +39,42 @@ const prefixRules = [
   },
   {
     form: 'co-',
-    meaning: 'together or with',
+    meaning: 'together; with',
     words: ['coagulate', 'coalesce', 'cohesive'],
   },
   {
     form: 'col-',
-    meaning: 'together or with',
+    meaning: 'together; with',
     words: ['collusion'],
   },
   {
     form: 'com-',
-    meaning: 'together or with',
+    meaning: 'together; with',
     words: ['commensurate', 'complementary', 'compound'],
   },
   {
     form: 'con-',
-    meaning: 'together or with',
+    meaning: 'together; with',
     words: ['concur', 'consolidate', 'converge'],
   },
   {
     form: 'counter-',
-    meaning: 'against or opposite',
+    meaning: 'against; opposite',
     words: ['counterintuitive', 'counterpoint', 'counterproductive'],
   },
   {
     form: 'dicho-',
-    meaning: 'two or divided',
+    meaning: 'two; divided',
     words: ['dichotomy'],
   },
   {
     form: 'de-',
-    meaning: 'down, away, or remove',
+    meaning: 'down; away; remove',
     words: ['debase', 'debunk', 'deface', 'deflect', 'degrade', 'demean', 'desecrate', 'detached', 'devolve'],
   },
   {
     form: 'dis-',
-    meaning: 'apart, not, or remove',
+    meaning: 'apart; not; remove',
     words: [
       'disabuse',
       'disaffected',
@@ -94,27 +94,27 @@ const prefixRules = [
   },
   {
     form: 'en-',
-    meaning: 'in, into, or make',
+    meaning: 'in; into; make',
     words: ['engender', 'entitlement', 'entrenched'],
   },
   {
     form: 'eu-',
-    meaning: 'good or pleasant',
+    meaning: 'good; pleasant',
     words: ['eulogy', 'euphemism', 'euphoria', 'euphoric'],
   },
   {
     form: 'ex-',
-    meaning: 'out of or free from',
+    meaning: 'out of; free from',
     words: ['exculpate', 'exonerate'],
   },
   {
     form: 'extra-',
-    meaning: 'outside or beyond',
+    meaning: 'outside; beyond',
     words: ['extraneous', 'extrapolate', 'extrapolation'],
   },
   {
     form: 'fore-',
-    meaning: 'before or in front',
+    meaning: 'before; in front',
     words: ['foreshadow', 'forestall'],
   },
   {
@@ -129,17 +129,17 @@ const prefixRules = [
   },
   {
     form: 'hyper-',
-    meaning: 'over or excessive',
+    meaning: 'over; excessive',
     words: ['hyperbole'],
   },
   {
     form: 'inter-',
-    meaning: 'between or among',
+    meaning: 'between; among',
     words: ['intermittent'],
   },
   {
     form: 'in-',
-    meaning: 'not or without',
+    meaning: 'not; without',
     words: [
       'inarticulate',
       'incessant',
@@ -162,12 +162,12 @@ const prefixRules = [
   },
   {
     form: 'in-',
-    meaning: 'in or into',
+    meaning: 'in; into',
     words: ['incorporate', 'ingrained'],
   },
   {
     form: 'im-',
-    meaning: 'not or without',
+    meaning: 'not; without',
     words: [
       'immaterial',
       'immutable',
@@ -187,32 +187,32 @@ const prefixRules = [
   },
   {
     form: 'im-',
-    meaning: 'in or inward',
+    meaning: 'in; inward',
     words: ['implode'],
   },
   {
     form: 'il-',
-    meaning: 'not or without',
+    meaning: 'not; without',
     words: ['illicit'],
   },
   {
     form: 'ir-',
-    meaning: 'not or without',
+    meaning: 'not; without',
     words: ['irresolute', 'irrevocable'],
   },
   {
     form: 'mal-',
-    meaning: 'bad or harmful',
+    meaning: 'bad; harmful',
     words: ['malevolent', 'malodorous'],
   },
   {
     form: 'meta-',
-    meaning: 'change or beyond',
+    meaning: 'change; beyond',
     words: ['metamorphosis'],
   },
   {
     form: 'mis-',
-    meaning: 'wrongly or badly',
+    meaning: 'wrongly; badly',
     words: ['misconstrue', 'miscreant'],
   },
   {
@@ -222,7 +222,7 @@ const prefixRules = [
   },
   {
     form: 'mono-',
-    meaning: 'one or single',
+    meaning: 'one; single',
     words: ['monotony'],
   },
   {
@@ -232,7 +232,7 @@ const prefixRules = [
   },
   {
     form: 'para-',
-    meaning: 'beside, beyond, or against',
+    meaning: 'beside; beyond; against',
     words: ['paradoxical'],
   },
   {
@@ -242,7 +242,7 @@ const prefixRules = [
   },
   {
     form: 'phil-/philo-',
-    meaning: 'love or liking',
+    meaning: 'love; liking',
     words: ['philanthropic'],
   },
   {
@@ -252,32 +252,32 @@ const prefixRules = [
   },
   {
     form: 'pro-',
-    meaning: 'forward or in favor of',
+    meaning: 'forward; in favor of',
     words: ['proponent'],
   },
   {
     form: 're-',
-    meaning: 'again or back',
+    meaning: 'again; back',
     words: ['recant', 'reconcile', 'redress', 'resurgent', 'retract'],
   },
   {
     form: 'sub-',
-    meaning: 'under or below',
+    meaning: 'under; below',
     words: ['subside', 'subsume', 'subversive'],
   },
   {
     form: 'super-',
-    meaning: 'above or excessive',
+    meaning: 'above; excessive',
     words: ['superfluous', 'supersede'],
   },
   {
     form: 'trans-',
-    meaning: 'across or through',
+    meaning: 'across; through',
     words: ['transgression', 'transient', 'transitory'],
   },
   {
     form: 'un-',
-    meaning: 'not or the opposite of',
+    meaning: 'not; the opposite of',
     words: [
       'uncanny',
       'uncompromising',
@@ -292,7 +292,7 @@ const prefixRules = [
   },
   {
     form: 'under-',
-    meaning: 'below or not enough',
+    meaning: 'below; not enough',
     words: ['undermine', 'underscore'],
   },
 ]
@@ -300,17 +300,17 @@ const prefixRules = [
 const suffixRules = [
   {
     form: '-able',
-    meaning: 'able to be or suitable for',
+    meaning: 'able to be; suitable for',
     matches: (word) => word.endsWith('able') && !['affable', 'amiable', 'equitable'].includes(word),
   },
   {
     form: '-ible',
-    meaning: 'able or likely to be',
+    meaning: 'able to be; likely to be',
     matches: (word) => word.endsWith('ible') && word !== 'foible',
   },
   {
     form: '-ful',
-    meaning: 'full of or having',
+    meaning: 'full of; having',
     words: ['fanciful'],
   },
   {
@@ -320,82 +320,82 @@ const suffixRules = [
   },
   {
     form: '-ish',
-    meaning: 'somewhat like or having the quality of',
+    meaning: 'somewhat like; having the quality of',
     words: ['boorish', 'peevish', 'raffish'],
   },
   {
     form: '-wise',
-    meaning: 'in the manner of or regarding',
+    meaning: 'in the manner of; regarding',
     words: ['likewise'],
   },
   {
     form: '-ling',
-    meaning: 'a young, small, or lesser person or thing',
+    meaning: 'young; small; lesser',
     words: ['fledgling'],
   },
   {
     form: '-some',
-    meaning: 'having or causing a quality',
+    meaning: 'having a quality; causing a quality',
     words: ['cumbersome', 'winsome'],
   },
   {
     form: '-archy',
-    meaning: 'rule or an ordered system',
+    meaning: 'rule; an ordered system',
     words: ['anarchy', 'hierarchy'],
   },
   {
     form: '-cracy',
-    meaning: 'rule or government',
+    meaning: 'rule; government',
     words: ['bureaucracy'],
   },
   {
     form: '-pathy',
-    meaning: 'feeling or disease',
+    meaning: 'feeling; disease',
     words: ['apathy', 'antipathy'],
   },
   {
     form: '-ism',
-    meaning: 'a belief, system, or practice',
+    meaning: 'a belief; system; practice',
     words: ['activism', 'altruism', 'chauvinism', 'jingoism'],
   },
   {
     form: '-ist',
-    meaning: 'a person who follows or practices something',
+    meaning: 'a follower; someone who practices something',
     words: ['chauvinist', 'egotist', 'hedonist', 'misogynist'],
   },
   {
     form: '-ify',
-    meaning: 'make or become',
+    meaning: 'make; become',
     words: ['exemplify', 'fortify', 'mollify', 'qualify'],
   },
   {
     form: '-ize',
-    meaning: 'make, become, or treat as',
+    meaning: 'make; become; treat as',
     words: ['aggrandize', 'antagonize', 'galvanize', 'lionize', 'mesmerize', 'ostracize', 'patronize'],
   },
   {
     form: '-al',
-    meaning: 'related to or having a quality',
+    meaning: 'related to; having a quality',
     matches: (word) => word.endsWith('al') && !word.endsWith('ical') && !['banal', 'zeal'].includes(word),
   },
   {
     form: '-ary',
-    meaning: 'related to or connected with',
+    meaning: 'related to; connected with',
     matches: (word) => word.endsWith('ary') && !['quandary', 'wary'].includes(word),
   },
   {
     form: '-ory',
-    meaning: 'related to or used for',
+    meaning: 'related to; used for',
     matches: (word) => word.endsWith('ory'),
   },
   {
     form: '-ance',
-    meaning: 'a state, quality, or action',
+    meaning: 'a state; quality; action',
     words: ['abeyance', 'dissonance', 'temperance', 'variance'],
   },
   {
     form: '-ence',
-    meaning: 'a state, quality, or action',
+    meaning: 'a state; quality; action',
     words: [
       'ambivalence',
       'credence',
@@ -410,67 +410,67 @@ const suffixRules = [
   },
   {
     form: '-ancy',
-    meaning: 'a state or quality',
+    meaning: 'a state; quality',
     words: ['ascendancy', 'discrepancy'],
   },
   {
     form: '-ency',
-    meaning: 'a state or quality',
+    meaning: 'a state; quality',
     words: ['clemency', 'exigency'],
   },
   {
     form: '-ment',
-    meaning: 'an action, result, or state',
+    meaning: 'an action; result; state',
     words: ['entitlement'],
   },
   {
     form: '-arian',
-    meaning: 'a person connected with or supporting something',
+    meaning: 'a person connected with something; a supporter',
     words: ['egalitarian'],
   },
   {
     form: '-tomy',
-    meaning: 'cutting or division',
+    meaning: 'cutting; division',
     words: ['dichotomy'],
   },
   {
     form: '-graphy',
-    meaning: 'writing, recording, or describing',
+    meaning: 'writing; recording; describing',
     words: ['cartography'],
   },
   {
     form: '-ity',
-    meaning: 'a state or quality',
+    meaning: 'a state; quality',
     matches: (word) => word.endsWith('ity'),
   },
   {
     form: '-ous',
-    meaning: 'having or full of',
+    meaning: 'having; full of',
     matches: (word) => word.endsWith('ous'),
   },
   {
     form: '-ive',
-    meaning: 'having a quality or tendency',
+    meaning: 'having a quality; having a tendency',
     matches: (word) => word.endsWith('ive') && !['contrive', 'derive', 'naive'].includes(word),
   },
   {
     form: '-tion',
-    meaning: 'an action, process, or result',
+    meaning: 'an action; process; result',
     matches: (word) => word.endsWith('tion'),
   },
   {
     form: '-sion',
-    meaning: 'an action, process, or result',
+    meaning: 'an action; process; result',
     matches: (word) => word.endsWith('sion'),
   },
   {
     form: '-ic',
-    meaning: 'related to or characterized by',
+    meaning: 'related to; characterized by',
     matches: (word) => word.endsWith('ic'),
   },
   {
     form: '-ical',
-    meaning: 'related to or characterized by',
+    meaning: 'related to; characterized by',
     matches: (word) => word.endsWith('ical'),
   },
 ]
@@ -534,6 +534,9 @@ for (const item of annotatedSeed) {
     if (affix.meaning.length > 65) throw new Error(`${item.word} has an overly long meaning for ${affix.form}.`)
     if (uncommonMeaningWords.some((word) => affix.meaning.toLocaleLowerCase().includes(word))) {
       throw new Error(`${item.word} uses uncommon wording in the meaning for ${affix.form}.`)
+    }
+    if (/\bor\b/i.test(affix.meaning)) {
+      throw new Error(`${item.word} uses "or" instead of semicolons in the meaning for ${affix.form}.`)
     }
     if (affix.type === 'prefix' && !affix.form.endsWith('-')) {
       throw new Error(`${item.word} has malformed prefix ${affix.form}.`)

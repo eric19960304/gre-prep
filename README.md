@@ -78,7 +78,7 @@ The app is intentionally client-only and holds a small personal study dataset. l
 
 `src/data/seedVocabulary.json` contains the app-ready 1,000-word list with rank, part of speech, English definition, Traditional Chinese meaning, available example sentence, and a `commonAffixes` array. Each affix clue records whether it is a prefix or suffix, its displayed form, and its plain-English meaning. Words without a reliable, learner-useful clue have an empty array. The source dataset, including evidence signals used during ranking and an equivalent `common_affixes` field, is `gre_vocabulary_1000_zh_TW.json` in the project root.
 
-Run `npm run annotate:affixes` to validate both 1,000-word files and regenerate their affix annotations from the curated, offline rules in `scripts/annotate-vocabulary-affixes.mjs`. The current audit annotates 438 words with 500 useful clues. The generator rejects duplicate clues, malformed affix notation, overly long explanations, and a small denylist of unnecessarily uncommon wording. The annotation process does not call an external dictionary or web service.
+Run `npm run annotate:affixes` to validate both 1,000-word files and regenerate their affix annotations from the curated, offline rules in `scripts/annotate-vocabulary-affixes.mjs`. The current audit annotates 438 words with 500 useful clues. Alternative senses use semicolons for quick scanning. The generator rejects duplicate clues, malformed affix notation, overly long explanations, “or” separators, and a small denylist of unnecessarily uncommon wording. The annotation process does not call an external dictionary or web service.
 
 On the first visit, the storage service:
 

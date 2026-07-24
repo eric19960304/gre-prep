@@ -8,7 +8,7 @@ const word = makeWord({
   commonAffixes: [{
     type: 'suffix',
     form: '-ful',
-    meaning: 'full of or having',
+    meaning: 'full of; having',
   }],
 })
 
@@ -20,7 +20,7 @@ describe('Flashcard', () => {
 
     expect(screen.getByText('Common prefix and suffix')).toBeInTheDocument()
     expect(screen.getByText('-ful')).toBeInTheDocument()
-    expect(screen.getByText('Meaning:').closest('p')).toHaveTextContent('Meaning: full of or having.')
+    expect(screen.getByText('Meaning:').closest('p')).toHaveTextContent('Meaning: full of; having.')
   })
 
   it('keeps affix clues hidden before reveal', () => {
