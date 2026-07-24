@@ -24,14 +24,14 @@ describe('validateVocabularyImport', () => {
       word: 'fanciful',
       definition: 'Imaginative.',
       commonAffixes: [
-        { type: 'suffix', form: '-ful', meaning: 'full of, having, or characterized by' },
+        { type: 'suffix', form: '-ful', meaning: 'full of or having' },
         { type: 'root', form: 'fanci', meaning: 'invalid type' },
         { type: 'prefix', form: '', meaning: 'missing form' },
       ],
     }])
 
     expect(result.valid[0].commonAffixes).toEqual([
-      { type: 'suffix', form: '-ful', meaning: 'full of, having, or characterized by' },
+      { type: 'suffix', form: '-ful', meaning: 'full of or having' },
     ])
   })
 

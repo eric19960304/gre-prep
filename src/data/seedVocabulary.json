@@ -12,7 +12,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -40,7 +40,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -53,7 +53,13 @@
     "definition": "lasting a very short time.",
     "chineseMeaning": "a. 朝生暮死的, 短命的, 短暫的; [醫] 暫時的",
     "exampleSentence": "The lifespan of a mayfly is ephemeral, lasting from a few hours to a couple of days.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 5,
@@ -79,7 +85,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -96,7 +102,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -124,7 +130,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -152,7 +158,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -176,7 +182,13 @@
     "definition": "(of a person) prone to unexpected and unpredictable changes in mood.",
     "chineseMeaning": "a. 水星的, 敏捷的, 活潑的, 水銀的; n. 汞劑",
     "exampleSentence": "The fact that Ella's moods were as mercurial as the weather was problematic for her relationships--it didn't help that she lived in Chicago.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 14,
@@ -213,7 +225,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -241,7 +253,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -258,7 +270,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -298,7 +310,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -315,7 +327,7 @@
       {
         "type": "prefix",
         "form": "en-",
-        "meaning": "in, into, or cause to become"
+        "meaning": "in, into, or make"
       }
     ]
   },
@@ -332,7 +344,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -382,7 +394,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -404,7 +416,7 @@
       {
         "type": "suffix",
         "form": "-ical",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -421,7 +433,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -434,7 +446,13 @@
     "definition": "rashly or wastefully extravagant.",
     "chineseMeaning": "n. 浪費者; a. 浪費的, 揮霍的, 豐富的",
     "exampleSentence": "Successful professional athletes who do not fall prey to prodigality seem to be the exception--most live decadent lives.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 32,
@@ -460,7 +478,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -499,7 +517,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -589,7 +607,13 @@
     "definition": "disagreeable sounds",
     "chineseMeaning": "n. 不和諧音, 不一致, 不調和, 刺耳的聲音; [醫] 不諧和",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ance",
+        "meaning": "a state, quality, or action"
+      }
+    ]
   },
   {
     "rank": 45,
@@ -604,7 +628,7 @@
       {
         "type": "prefix",
         "form": "eu-",
-        "meaning": "good, pleasant, or well"
+        "meaning": "good or pleasant"
       }
     ]
   },
@@ -676,7 +700,7 @@
       {
         "type": "suffix",
         "form": "-tion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -745,7 +769,13 @@
     "definition": "of little value or importance",
     "chineseMeaning": "瑣碎的；不重要的",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 58,
@@ -760,7 +790,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -777,7 +807,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -794,7 +824,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -816,7 +846,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -844,12 +874,12 @@
       {
         "type": "prefix",
         "form": "a-/an-",
-        "meaning": "not, without, or lacking"
+        "meaning": "not or without"
       },
       {
         "type": "suffix",
         "form": "-pathy",
-        "meaning": "feeling, emotion, suffering, or disease"
+        "meaning": "feeling or disease"
       }
     ]
   },
@@ -877,7 +907,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -929,12 +959,12 @@
       {
         "type": "prefix",
         "form": "homo-",
-        "meaning": "same or alike"
+        "meaning": "same"
       },
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -973,7 +1003,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -990,7 +1020,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -1018,7 +1048,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -1046,7 +1076,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -1103,7 +1133,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -1155,12 +1185,12 @@
       {
         "type": "prefix",
         "form": "anti-",
-        "meaning": "against, opposed to, or the opposite of"
+        "meaning": "against or opposite to"
       },
       {
         "type": "suffix",
         "form": "-pathy",
-        "meaning": "feeling, emotion, suffering, or disease"
+        "meaning": "feeling or disease"
       }
     ]
   },
@@ -1173,7 +1203,13 @@
     "definition": "courteous regard for people's feelings",
     "chineseMeaning": "n. 順從, 尊重",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ence",
+        "meaning": "a state, quality, or action"
+      }
+    ]
   },
   {
     "rank": 87,
@@ -1188,7 +1224,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -1205,7 +1241,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -1222,7 +1258,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -1239,7 +1275,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -1267,12 +1303,12 @@
       {
         "type": "prefix",
         "form": "eu-",
-        "meaning": "good, pleasant, or well"
+        "meaning": "good or pleasant"
       },
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -1289,7 +1325,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -1306,7 +1342,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -1353,7 +1389,13 @@
     "definition": "done routinely and with little interest or care.",
     "chineseMeaning": "a. 敷衍的, 隨隨便便的, 得過且過的",
     "exampleSentence": "The short film examines modern perfunctory cleaning rituals such as washing dishes, doing laundry and tooth-brushing.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ory",
+        "meaning": "related to or used for"
+      }
+    ]
   },
   {
     "rank": 99,
@@ -1369,7 +1411,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -1386,7 +1428,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -1403,7 +1445,7 @@
       {
         "type": "suffix",
         "form": "-ize",
-        "meaning": "to make, cause to become, or treat as"
+        "meaning": "make, become, or treat as"
       }
     ]
   },
@@ -1420,7 +1462,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -1437,7 +1479,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -1454,7 +1496,7 @@
       {
         "type": "suffix",
         "form": "-ize",
-        "meaning": "to make, cause to become, or treat as"
+        "meaning": "make, become, or treat as"
       }
     ]
   },
@@ -1471,12 +1513,12 @@
       {
         "type": "prefix",
         "form": "super-",
-        "meaning": "above, beyond, or excessive"
+        "meaning": "above or excessive"
       },
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -1489,7 +1531,13 @@
     "definition": "occurring at a favorable or fortunate time",
     "chineseMeaning": "幸運而及時的；天意的",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 107,
@@ -1559,7 +1607,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -1576,7 +1624,7 @@
       {
         "type": "suffix",
         "form": "-ify",
-        "meaning": "to make, cause to become, or render"
+        "meaning": "make or become"
       }
     ]
   },
@@ -1604,7 +1652,7 @@
       {
         "type": "prefix",
         "form": "dis-",
-        "meaning": "apart, asunder, in two, not, or reversal"
+        "meaning": "apart, not, or remove"
       }
     ]
   },
@@ -1643,7 +1691,7 @@
       {
         "type": "prefix",
         "form": "a-/an-",
-        "meaning": "not, without, or lacking"
+        "meaning": "not or without"
       }
     ]
   },
@@ -1660,7 +1708,7 @@
       {
         "type": "prefix",
         "form": "ab-",
-        "meaning": "away from or off"
+        "meaning": "away from"
       }
     ]
   },
@@ -1710,7 +1758,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -1727,7 +1775,7 @@
       {
         "type": "prefix",
         "form": "dis-",
-        "meaning": "apart, asunder, in two, not, or reversal"
+        "meaning": "apart, not, or remove"
       }
     ]
   },
@@ -1806,7 +1854,13 @@
     "definition": "confusing or ambiguous.",
     "chineseMeaning": "a. 意義不明確的, 模稜兩可的; [醫] 雙關的, 兩可的",
     "exampleSentence": "The findings of the study were equivocal--the two researchers had different opinions on what the results signified.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 132,
@@ -1844,7 +1898,7 @@
       {
         "type": "suffix",
         "form": "-ible",
-        "meaning": "capable of, fit for, or susceptible to"
+        "meaning": "able or likely to be"
       }
     ]
   },
@@ -1894,7 +1948,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -1907,7 +1961,13 @@
     "definition": "lack of self-assurance",
     "chineseMeaning": "n. 無自信, 畏縮, 羞怯",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ence",
+        "meaning": "a state, quality, or action"
+      }
+    ]
   },
   {
     "rank": 140,
@@ -1933,7 +1993,7 @@
       {
         "type": "suffix",
         "form": "-ible",
-        "meaning": "capable of, fit for, or susceptible to"
+        "meaning": "able or likely to be"
       }
     ]
   },
@@ -1985,7 +2045,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -2055,9 +2115,14 @@
     "exampleSentence": "",
     "commonAffixes": [
       {
+        "type": "prefix",
+        "form": "phil-/philo-",
+        "meaning": "love or liking"
+      },
+      {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -2097,7 +2162,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -2125,7 +2190,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -2153,7 +2218,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -2181,7 +2246,7 @@
       {
         "type": "prefix",
         "form": "under-",
-        "meaning": "below, beneath, or insufficiently"
+        "meaning": "below or not enough"
       }
     ]
   },
@@ -2210,7 +2275,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -2239,7 +2304,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -2284,7 +2349,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -2297,7 +2362,13 @@
     "definition": "a difference between conflicting facts or claims or opinions",
     "chineseMeaning": "n. 不符合, 差異, 不相符之處; [化] 不符值; 偏差值",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ancy",
+        "meaning": "a state or quality"
+      }
+    ]
   },
   {
     "rank": 169,
@@ -2312,7 +2383,7 @@
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -2329,7 +2400,7 @@
       {
         "type": "prefix",
         "form": "dis-",
-        "meaning": "apart, asunder, in two, not, or reversal"
+        "meaning": "apart, not, or remove"
       }
     ]
   },
@@ -2382,7 +2453,7 @@
       {
         "type": "suffix",
         "form": "-sion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -2410,7 +2481,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -2438,7 +2509,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -2466,7 +2537,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -2484,7 +2555,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -2501,7 +2572,7 @@
       {
         "type": "prefix",
         "form": "under-",
-        "meaning": "below, beneath, or insufficiently"
+        "meaning": "below or not enough"
       }
     ]
   },
@@ -2562,7 +2633,7 @@
       {
         "type": "prefix",
         "form": "pre-",
-        "meaning": "before or in advance"
+        "meaning": "before"
       }
     ]
   },
@@ -2580,7 +2651,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -2630,7 +2701,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -2658,7 +2729,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -2697,7 +2768,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -2755,7 +2826,13 @@
     "definition": "characteristic of the a limited perspective; not fashionable or sophisticated Maggie's enthusiasm about her high school teams seemed provincial to her college classmates, all of whom were following a nationally ranked college team.",
     "chineseMeaning": "n. 外地人, 粗野的人; a. 省的, 外地的, 偏狹的",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 203,
@@ -2782,7 +2859,7 @@
       {
         "type": "prefix",
         "form": "dis-",
-        "meaning": "apart, asunder, in two, not, or reversal"
+        "meaning": "apart, not, or remove"
       }
     ]
   },
@@ -2799,7 +2876,7 @@
       {
         "type": "prefix",
         "form": "de-",
-        "meaning": "down, away, off, or removal"
+        "meaning": "down, away, or remove"
       }
     ]
   },
@@ -2816,7 +2893,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -2834,7 +2911,7 @@
       {
         "type": "prefix",
         "form": "fore-",
-        "meaning": "before, earlier, or in front"
+        "meaning": "before or in front"
       }
     ]
   },
@@ -2880,7 +2957,13 @@
     "definition": "to be in proportion or corresponding in degree or amount The convicted felon's life sentence was commensurate to the heinousness of his crime.",
     "chineseMeaning": "a. 同量的, 同等的, 相稱的",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "prefix",
+        "form": "com-",
+        "meaning": "together or with"
+      }
+    ]
   },
   {
     "rank": 212,
@@ -2895,7 +2978,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -2908,7 +2991,18 @@
     "definition": "enhancing each other's qualities (for two things or more).",
     "chineseMeaning": "a. 補充的, 補足的; [經] 補足的, 補充的",
     "exampleSentence": "The head waiter was careful to tell the amateur diners that red wine was complementary with beef, each bringing out subtle taste notes in the other.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "prefix",
+        "form": "com-",
+        "meaning": "together or with"
+      },
+      {
+        "type": "suffix",
+        "form": "-ary",
+        "meaning": "related to or connected with"
+      }
+    ]
   },
   {
     "rank": 214,
@@ -2923,7 +3017,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -2940,7 +3034,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -2957,7 +3051,12 @@
       {
         "type": "prefix",
         "form": "trans-",
-        "meaning": "across, through, or beyond"
+        "meaning": "across or through"
+      },
+      {
+        "type": "suffix",
+        "form": "-ory",
+        "meaning": "related to or used for"
       }
     ]
   },
@@ -2986,7 +3085,7 @@
       {
         "type": "suffix",
         "form": "-ible",
-        "meaning": "capable of, fit for, or susceptible to"
+        "meaning": "able or likely to be"
       }
     ]
   },
@@ -2999,7 +3098,18 @@
     "definition": "a classification into two opposed parts or subclasses",
     "chineseMeaning": "n. 兩分, 分裂, 二分法; [醫] 二分(二分之一); 二叉, 二歧",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "prefix",
+        "form": "dicho-",
+        "meaning": "two or divided"
+      },
+      {
+        "type": "suffix",
+        "form": "-tomy",
+        "meaning": "cutting or division"
+      }
+    ]
   },
   {
     "rank": 220,
@@ -3025,7 +3135,7 @@
       {
         "type": "suffix",
         "form": "-ful",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "full of or having"
       }
     ]
   },
@@ -3042,7 +3152,7 @@
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -3065,7 +3175,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -3083,7 +3193,7 @@
       {
         "type": "suffix",
         "form": "-tion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -3133,7 +3243,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -3150,7 +3260,7 @@
       {
         "type": "prefix",
         "form": "un-",
-        "meaning": "not, lacking, or reversal"
+        "meaning": "not or the opposite of"
       }
     ]
   },
@@ -3174,13 +3284,7 @@
     "definition": "fair to all parties as dictated by reason and conscience.",
     "chineseMeaning": "a. 公平的, 公正的; [法] 公平的, 公正的, 平衡法的",
     "exampleSentence": "The equitable distribution of ice cream to a group of 5 year olds will ensure little to no fighting--at least until the ice cream is gone.",
-    "commonAffixes": [
-      {
-        "type": "suffix",
-        "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
-      }
-    ]
+    "commonAffixes": []
   },
   {
     "rank": 232,
@@ -3196,7 +3300,7 @@
       {
         "type": "prefix",
         "form": "super-",
-        "meaning": "above, beyond, or excessive"
+        "meaning": "above or excessive"
       }
     ]
   },
@@ -3209,7 +3313,13 @@
     "definition": "lasting an indefinitely long time; eternal; everlasting.",
     "chineseMeaning": "a. 常年的, 長期的, 反覆的; [醫] 多年生的",
     "exampleSentence": "Even at the old-timers games, Stan Musial would get the loudest cheer: he was a perennial favorite of the fans there. This word has other definitions but this is the most important one for the GRE.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 234,
@@ -3224,7 +3334,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -3252,12 +3362,12 @@
       {
         "type": "prefix",
         "form": "a-/an-",
-        "meaning": "not, without, or lacking"
+        "meaning": "not or without"
       },
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -3318,7 +3428,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -3373,7 +3483,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -3390,7 +3500,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -3407,7 +3517,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -3435,7 +3545,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -3465,7 +3575,13 @@
     "definition": "based on a random, groundless decision.",
     "chineseMeaning": "a. 任意的, 武斷的, 專治的, 霸道的",
     "exampleSentence": "One of the arbitrary decrees in place during the emperor's rule is that all citizens pay him weekly homage at his palace. This word has other definitions but this is the most important one for the GRE.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ary",
+        "meaning": "related to or connected with"
+      }
+    ]
   },
   {
     "rank": 251,
@@ -3481,7 +3597,7 @@
       {
         "type": "prefix",
         "form": "dis-",
-        "meaning": "apart, asunder, in two, not, or reversal"
+        "meaning": "apart, not, or remove"
       }
     ]
   },
@@ -3538,7 +3654,13 @@
     "definition": "involving intelligence rather than emotions or instinct.",
     "chineseMeaning": "a. 腦的, 大腦的; [醫] 小腦的",
     "exampleSentence": "A cerebral analysis of most pop music finds it to be simple and childish, but that ignores the point--the music's effect on the listener. This word has other definitions but this is the most important one for the GRE.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 257,
@@ -3553,7 +3675,7 @@
       {
         "type": "prefix",
         "form": "trans-",
-        "meaning": "across, through, or beyond"
+        "meaning": "across or through"
       }
     ]
   },
@@ -3570,7 +3692,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -3598,12 +3720,12 @@
       {
         "type": "prefix",
         "form": "para-",
-        "meaning": "beside, beyond, or contrary to"
+        "meaning": "beside, beyond, or against"
       },
       {
         "type": "suffix",
         "form": "-ical",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -3620,7 +3742,7 @@
       {
         "type": "prefix",
         "form": "en-",
-        "meaning": "in, into, or cause to become"
+        "meaning": "in, into, or make"
       }
     ]
   },
@@ -3638,12 +3760,12 @@
       {
         "type": "prefix",
         "form": "hetero-",
-        "meaning": "different or other"
+        "meaning": "different"
       },
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -3677,7 +3799,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -3694,12 +3816,12 @@
       {
         "type": "prefix",
         "form": "a-/an-",
-        "meaning": "not, without, or lacking"
+        "meaning": "not or without"
       },
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -3716,7 +3838,7 @@
       {
         "type": "prefix",
         "form": "circum-",
-        "meaning": "around or surrounding"
+        "meaning": "around"
       }
     ]
   },
@@ -3733,7 +3855,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -3750,7 +3872,7 @@
       {
         "type": "suffix",
         "form": "-tion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -3778,7 +3900,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -3817,7 +3939,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -3856,12 +3978,12 @@
       {
         "type": "prefix",
         "form": "dis-",
-        "meaning": "apart, asunder, in two, not, or reversal"
+        "meaning": "apart, not, or remove"
       },
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -3878,7 +4000,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -3907,7 +4029,7 @@
       {
         "type": "suffix",
         "form": "-ical",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -3922,9 +4044,14 @@
     "exampleSentence": "",
     "commonAffixes": [
       {
+        "type": "prefix",
+        "form": "per-",
+        "meaning": "through"
+      },
+      {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -3996,7 +4123,7 @@
       {
         "type": "prefix",
         "form": "co-",
-        "meaning": "together, jointly, or with"
+        "meaning": "together or with"
       }
     ]
   },
@@ -4013,7 +4140,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -4030,7 +4157,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -4043,7 +4170,13 @@
     "definition": "making or willing to make concessions",
     "chineseMeaning": "a. 安撫的, 和好的, 調和的",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ory",
+        "meaning": "related to or used for"
+      }
+    ]
   },
   {
     "rank": 290,
@@ -4080,7 +4213,7 @@
       {
         "type": "prefix",
         "form": "de-",
-        "meaning": "down, away, off, or removal"
+        "meaning": "down, away, or remove"
       }
     ]
   },
@@ -4097,7 +4230,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -4125,7 +4258,7 @@
       {
         "type": "prefix",
         "form": "un-",
-        "meaning": "not, lacking, or reversal"
+        "meaning": "not or the opposite of"
       }
     ]
   },
@@ -4142,7 +4275,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -4159,7 +4292,7 @@
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -4184,7 +4317,13 @@
     "definition": "of superficial relevance if any",
     "chineseMeaning": "a. 切線的, 相切的, 正切的, 離題的, 扯遠的; [醫] 正切的, 切線的",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 300,
@@ -4200,7 +4339,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -4229,7 +4368,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -4298,7 +4437,13 @@
     "definition": "effusively or insincerely emotional, especially in art, music, and literature.",
     "chineseMeaning": "a. 感傷的, 感情用事的",
     "exampleSentence": "I don't like romanticism for the same reason I don't like melodramatic acting and soap operas--overly sentimental.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 309,
@@ -4390,7 +4535,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -4407,7 +4552,7 @@
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -4446,12 +4591,12 @@
       {
         "type": "prefix",
         "form": "trans-",
-        "meaning": "across, through, or beyond"
+        "meaning": "across or through"
       },
       {
         "type": "suffix",
         "form": "-sion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -4502,7 +4647,7 @@
       {
         "type": "suffix",
         "form": "-ize",
-        "meaning": "to make, cause to become, or treat as"
+        "meaning": "make, become, or treat as"
       }
     ]
   },
@@ -4530,7 +4675,7 @@
       {
         "type": "prefix",
         "form": "ex-",
-        "meaning": "out of, away from, or free from"
+        "meaning": "out of or free from"
       }
     ]
   },
@@ -4547,7 +4692,7 @@
       {
         "type": "prefix",
         "form": "eu-",
-        "meaning": "good, pleasant, or well"
+        "meaning": "good or pleasant"
       }
     ]
   },
@@ -4642,7 +4787,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -4655,7 +4800,13 @@
     "definition": "(adj) setting on fire, pertaining to arson; arousing strife, rebellion, etc.; \"inflaming\" the senses",
     "chineseMeaning": "a. 放火的, 煽動的, 燃燒的; n. 縱火犯人, 煽動者, 燃燒彈",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ary",
+        "meaning": "related to or connected with"
+      }
+    ]
   },
   {
     "rank": 337,
@@ -4675,7 +4826,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -4703,7 +4854,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -4753,7 +4904,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -4770,7 +4921,7 @@
       {
         "type": "suffix",
         "form": "-sion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -4826,7 +4977,7 @@
       {
         "type": "suffix",
         "form": "-tion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -4843,7 +4994,7 @@
       {
         "type": "suffix",
         "form": "-tion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -4910,7 +5061,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -4938,7 +5089,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -4988,7 +5139,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -5016,7 +5167,7 @@
       {
         "type": "suffix",
         "form": "-ical",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -5077,7 +5228,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -5105,7 +5256,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -5123,7 +5274,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -5162,7 +5313,7 @@
       {
         "type": "prefix",
         "form": "ab-",
-        "meaning": "away from or off"
+        "meaning": "away from"
       }
     ]
   },
@@ -5190,7 +5341,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -5240,7 +5391,7 @@
       {
         "type": "suffix",
         "form": "-tion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -5257,7 +5408,7 @@
       {
         "type": "prefix",
         "form": "in-",
-        "meaning": "in, into, or within"
+        "meaning": "in or into"
       }
     ]
   },
@@ -5275,7 +5426,7 @@
       {
         "type": "prefix",
         "form": "dis-",
-        "meaning": "apart, asunder, in two, not, or reversal"
+        "meaning": "apart, not, or remove"
       }
     ]
   },
@@ -5438,12 +5589,12 @@
       {
         "type": "prefix",
         "form": "dis-",
-        "meaning": "apart, asunder, in two, not, or reversal"
+        "meaning": "apart, not, or remove"
       },
       {
         "type": "suffix",
         "form": "-tion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -5501,7 +5652,13 @@
     "definition": "be adjacent or come together",
     "chineseMeaning": "vi. 聚合, 集中於一點; vt. 使集合",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "prefix",
+        "form": "con-",
+        "meaning": "together or with"
+      }
+    ]
   },
   {
     "rank": 401,
@@ -5560,7 +5717,7 @@
       {
         "type": "prefix",
         "form": "sub-",
-        "meaning": "under, below, or beneath"
+        "meaning": "under or below"
       }
     ]
   },
@@ -5577,7 +5734,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -5594,7 +5751,7 @@
       {
         "type": "prefix",
         "form": "dis-",
-        "meaning": "apart, asunder, in two, not, or reversal"
+        "meaning": "apart, not, or remove"
       }
     ]
   },
@@ -5633,7 +5790,7 @@
       {
         "type": "prefix",
         "form": "pre-",
-        "meaning": "before or in advance"
+        "meaning": "before"
       }
     ]
   },
@@ -5650,7 +5807,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -5674,7 +5831,13 @@
     "definition": "young and inexperienced; describing any new participant in some activity Murray has years of experience in family practice, but he is just a fledgling in surgery.",
     "chineseMeaning": "n. 羽毛初長的雛鳥, 剛會飛的幼鳥, 無經驗的人",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ling",
+        "meaning": "a young, small, or lesser person or thing"
+      }
+    ]
   },
   {
     "rank": 414,
@@ -5690,7 +5853,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -5708,6 +5871,11 @@
         "type": "prefix",
         "form": "im-",
         "meaning": "not or without"
+      },
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
       }
     ]
   },
@@ -5747,12 +5915,12 @@
       {
         "type": "prefix",
         "form": "a-/an-",
-        "meaning": "not, without, or lacking"
+        "meaning": "not or without"
       },
       {
         "type": "suffix",
         "form": "-archy",
-        "meaning": "rule, government, or an ordered system"
+        "meaning": "rule or an ordered system"
       }
     ]
   },
@@ -5769,7 +5937,12 @@
       {
         "type": "prefix",
         "form": "un-",
-        "meaning": "not, lacking, or reversal"
+        "meaning": "not or the opposite of"
+      },
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
       }
     ]
   },
@@ -5793,7 +5966,13 @@
     "definition": "being in the earliest stages of development; being or involving basic facts or principles.",
     "chineseMeaning": "a. 基本的, 起碼的, 初步的, 發展不完全的, 殘留的, 退化的; [醫] 原基的, 未成熟的; 殘遺的, 已退化的",
     "exampleSentence": "I would love to be able to present a fully polished proposal to the board, but right now, our plans for the product are still in the most rudimentary stages.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ary",
+        "meaning": "related to or connected with"
+      }
+    ]
   },
   {
     "rank": 422,
@@ -5819,7 +5998,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -5860,7 +6039,7 @@
       {
         "type": "suffix",
         "form": "-ical",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -5916,7 +6095,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -5933,7 +6112,7 @@
       {
         "type": "prefix",
         "form": "pre-",
-        "meaning": "before or in advance"
+        "meaning": "before"
       }
     ]
   },
@@ -5955,7 +6134,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -5983,7 +6162,7 @@
       {
         "type": "prefix",
         "form": "meta-",
-        "meaning": "change, transformation, or beyond"
+        "meaning": "change or beyond"
       }
     ]
   },
@@ -6063,7 +6242,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -6085,7 +6264,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -6125,6 +6304,11 @@
         "type": "prefix",
         "form": "in-",
         "meaning": "not or without"
+      },
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
       }
     ]
   },
@@ -6137,7 +6321,13 @@
     "definition": "the trait of avoiding excesses.",
     "chineseMeaning": "n. 節慾, 戒酒, 禁酒, 節制; [醫] 節制(飲食等), 戒酒",
     "exampleSentence": "Welles wasn't known for his temperance--he usually ate enough for two and drank enough for three.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ance",
+        "meaning": "a state, quality, or action"
+      }
+    ]
   },
   {
     "rank": 446,
@@ -6159,13 +6349,7 @@
     "definition": "likeable; easy to talk to.",
     "chineseMeaning": "a. 和藹可親的, 友善的, 親切的, 慈祥的",
     "exampleSentence": "For all his surface affability, Marco was remarkably glum when he wasn't around other people.",
-    "commonAffixes": [
-      {
-        "type": "suffix",
-        "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
-      }
-    ]
+    "commonAffixes": []
   },
   {
     "rank": 448,
@@ -6199,7 +6383,13 @@
     "definition": "not spending much money (but spending wisely).",
     "chineseMeaning": "a. 節儉的, 樸素的",
     "exampleSentence": "Monte was no miser, but was simply frugal, wisely spending the little that he earned.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 451,
@@ -6225,7 +6415,7 @@
       {
         "type": "prefix",
         "form": "hyper-",
-        "meaning": "over, beyond, or excessive"
+        "meaning": "over or excessive"
       }
     ]
   },
@@ -6254,7 +6444,7 @@
       {
         "type": "prefix",
         "form": "im-",
-        "meaning": "in, into, or inward"
+        "meaning": "in or inward"
       }
     ]
   },
@@ -6272,7 +6462,7 @@
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -6313,7 +6503,7 @@
       {
         "type": "prefix",
         "form": "dis-",
-        "meaning": "apart, asunder, in two, not, or reversal"
+        "meaning": "apart, not, or remove"
       }
     ]
   },
@@ -6341,7 +6531,7 @@
       {
         "type": "suffix",
         "form": "-ism",
-        "meaning": "a doctrine, belief, system, or practice"
+        "meaning": "a belief, system, or practice"
       }
     ]
   },
@@ -6358,7 +6548,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -6452,7 +6642,7 @@
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -6491,7 +6681,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -6531,7 +6721,7 @@
       {
         "type": "prefix",
         "form": "de-",
-        "meaning": "down, away, off, or removal"
+        "meaning": "down, away, or remove"
       }
     ]
   },
@@ -6566,7 +6756,13 @@
     "definition": "being of questionable authenticity.",
     "chineseMeaning": "a. 偽的, 不足憑信的",
     "exampleSentence": "The web is notorious for sandwiching apocryphal stories between actual news.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 479,
@@ -6626,7 +6822,7 @@
       {
         "type": "suffix",
         "form": "-ible",
-        "meaning": "capable of, fit for, or susceptible to"
+        "meaning": "able or likely to be"
       }
     ]
   },
@@ -6643,7 +6839,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -6656,7 +6852,13 @@
     "definition": "stubbornly resistant to authority or control.",
     "chineseMeaning": "a. 不聽話的, 執拗的, 難治療的, 耐火的; [醫] 不應的(期), 難治的, 頑固性的",
     "exampleSentence": "Used to studious high school students, Martha was unprepared for the refractory Kindgergarteners who neither sat still nor listened to a single word she said. This word has other definitions but this is the most important one for the GRE.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ory",
+        "meaning": "related to or used for"
+      }
+    ]
   },
   {
     "rank": 486,
@@ -6698,7 +6900,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -6715,7 +6917,7 @@
       {
         "type": "suffix",
         "form": "-less",
-        "meaning": "without or lacking"
+        "meaning": "without"
       }
     ]
   },
@@ -6732,7 +6934,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -6760,7 +6962,7 @@
       {
         "type": "suffix",
         "form": "-ish",
-        "meaning": "somewhat, resembling, or characterized by"
+        "meaning": "somewhat like or having the quality of"
       }
     ]
   },
@@ -6788,7 +6990,7 @@
       {
         "type": "prefix",
         "form": "ab-",
-        "meaning": "away from or off"
+        "meaning": "away from"
       }
     ]
   },
@@ -6817,7 +7019,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -6856,7 +7058,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -6873,7 +7075,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -6891,7 +7093,7 @@
       {
         "type": "prefix",
         "form": "ex-",
-        "meaning": "out of, away from, or free from"
+        "meaning": "out of or free from"
       }
     ]
   },
@@ -6915,7 +7117,13 @@
     "definition": "defiant aggressiveness.",
     "chineseMeaning": "n. 野蠻, 粗暴, 好戰",
     "exampleSentence": "When the boss confronted Aaron about his earlier remarks, Aaron responded with utter truculence, simply throwing a glass of water in the boss' face and walking away.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ence",
+        "meaning": "a state, quality, or action"
+      }
+    ]
   },
   {
     "rank": 504,
@@ -6952,7 +7160,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -6980,7 +7188,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -7064,7 +7272,7 @@
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -7081,7 +7289,7 @@
       {
         "type": "suffix",
         "form": "-tion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -7116,7 +7324,13 @@
     "definition": "(adj, n) favorable to progress or reform; believing in maximum possible individual freedom; tolerant, open-minded; generous (adj); a person with such beliefs or practices (noun)",
     "chineseMeaning": "n. 自由主義者; a. 慷慨的, 不拘泥的, 寬大的, 自由主義的",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 520,
@@ -7127,13 +7341,7 @@
     "definition": "reason by deduction; establish by deduction.",
     "chineseMeaning": "vt. 得自; vi. 起源",
     "exampleSentence": "From the multiple set of footprints in the living room, the investigator derived an important clue: Sheila was not alone in the room at the time of the murder.",
-    "commonAffixes": [
-      {
-        "type": "suffix",
-        "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
-      }
-    ]
+    "commonAffixes": []
   },
   {
     "rank": 521,
@@ -7204,7 +7412,7 @@
       {
         "type": "suffix",
         "form": "-ify",
-        "meaning": "to make, cause to become, or render"
+        "meaning": "make or become"
       }
     ]
   },
@@ -7221,7 +7429,7 @@
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -7260,7 +7468,7 @@
       {
         "type": "suffix",
         "form": "-tion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -7277,7 +7485,7 @@
       {
         "type": "suffix",
         "form": "-tion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -7323,7 +7531,13 @@
     "definition": "make more intense, stronger, or more marked.",
     "chineseMeaning": "n. 混合物, 複合詞, 化合物, 院子; a. 複合的, 混合的, 化合的; vi. 化合, 和解, 妥協; vt. 使複合, 使化合",
     "exampleSentence": "Her headache was compounded by the construction crew outside, which had six jackhammers going at the same time. This word has other definitions but this is the most important one for the GRE.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "prefix",
+        "form": "com-",
+        "meaning": "together or with"
+      }
+    ]
   },
   {
     "rank": 536,
@@ -7338,7 +7552,7 @@
       {
         "type": "suffix",
         "form": "-archy",
-        "meaning": "rule, government, or an ordered system"
+        "meaning": "rule or an ordered system"
       }
     ]
   },
@@ -7355,7 +7569,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -7394,7 +7608,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -7466,7 +7680,7 @@
       {
         "type": "suffix",
         "form": "-cracy",
-        "meaning": "rule, government, or a governing system"
+        "meaning": "rule or government"
       }
     ]
   },
@@ -7483,7 +7697,7 @@
       {
         "type": "suffix",
         "form": "-wise",
-        "meaning": "in the manner of, direction of, or with regard to"
+        "meaning": "in the manner of or regarding"
       }
     ]
   },
@@ -7574,7 +7788,13 @@
     "definition": "the quality of varying.",
     "chineseMeaning": "n. 不一致, 變化, 變異, 分歧, 不和; [化] 方差; 變種",
     "exampleSentence": "The cynic quipped, \"There is not much variance in politicians; they all seem to prevaricate\".",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ance",
+        "meaning": "a state, quality, or action"
+      }
+    ]
   },
   {
     "rank": 556,
@@ -7589,7 +7809,7 @@
       {
         "type": "prefix",
         "form": "pre-",
-        "meaning": "before or in advance"
+        "meaning": "before"
       }
     ]
   },
@@ -7629,12 +7849,12 @@
       {
         "type": "prefix",
         "form": "auto-",
-        "meaning": "self or by oneself"
+        "meaning": "self"
       },
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -7651,7 +7871,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -7690,7 +7910,7 @@
       {
         "type": "prefix",
         "form": "pro-",
-        "meaning": "forward, in front of, or in favor of"
+        "meaning": "forward or in favor of"
       }
     ]
   },
@@ -7751,7 +7971,7 @@
       {
         "type": "suffix",
         "form": "-tion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -7764,13 +7984,7 @@
     "definition": "(adj) simple and unsophisticated, unsuspecting, lacking worldly experience and critical judgment",
     "chineseMeaning": "a. 天真的, 純真的, 幼稚的",
     "exampleSentence": "",
-    "commonAffixes": [
-      {
-        "type": "suffix",
-        "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
-      }
-    ]
+    "commonAffixes": []
   },
   {
     "rank": 570,
@@ -7782,7 +7996,13 @@
     "definition": "(v) unite, combine, solidify, make coherent",
     "chineseMeaning": "vt. 鞏固, 使聯合, 統一; vi. 鞏固; [計] 合併計算",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "prefix",
+        "form": "con-",
+        "meaning": "together or with"
+      }
+    ]
   },
   {
     "rank": 571,
@@ -7793,7 +8013,13 @@
     "definition": "under terms not final or fully worked out or agreed upon.",
     "chineseMeaning": "a. 暫時的, 暫定的, 臨時的; [醫] 臨時的",
     "exampleSentence": "Until the corporate office hands down a definitive decision on use of the extra offices, we will share their use in a provisional arrangement.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 572,
@@ -7808,7 +8034,12 @@
       {
         "type": "prefix",
         "form": "en-",
-        "meaning": "in, into, or cause to become"
+        "meaning": "in, into, or make"
+      },
+      {
+        "type": "suffix",
+        "form": "-ment",
+        "meaning": "an action, result, or state"
       }
     ]
   },
@@ -7825,7 +8056,7 @@
       {
         "type": "suffix",
         "form": "-ical",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -7875,7 +8106,7 @@
       {
         "type": "suffix",
         "form": "-tion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -7925,7 +8156,7 @@
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -7942,7 +8173,7 @@
       {
         "type": "suffix",
         "form": "-ism",
-        "meaning": "a doctrine, belief, system, or practice"
+        "meaning": "a belief, system, or practice"
       }
     ]
   },
@@ -7966,7 +8197,13 @@
     "definition": "relating to the countryside in a pleasant sense.",
     "chineseMeaning": "n. 牧歌, 田園詩; a. 牧人的, 田園生活的, 牧師的, 田園式的",
     "exampleSentence": "Those who imagine America's countryside as a pastoral region are often disappointed to learn that much of rural U.S. is filled with cornfields extending as far as the eye can see.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 585,
@@ -8014,7 +8251,7 @@
       {
         "type": "suffix",
         "form": "-ify",
-        "meaning": "to make, cause to become, or render"
+        "meaning": "make or become"
       }
     ]
   },
@@ -8038,7 +8275,13 @@
     "definition": "of primary importance; fundamental.",
     "chineseMeaning": "n. 紅衣主教, 鮮紅色; a. 主要的, 深紅色的",
     "exampleSentence": "Most cultures consider gambling a cardinal sin and thus have outlawed its practice. This word has other definitions but this is the most important one for the GRE.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 591,
@@ -8083,7 +8326,7 @@
       {
         "type": "prefix",
         "form": "de-",
-        "meaning": "down, away, off, or removal"
+        "meaning": "down, away, or remove"
       }
     ]
   },
@@ -8118,7 +8361,13 @@
     "definition": "the trait of seeming not to care.",
     "chineseMeaning": "n. 不重視, 無興趣, 漠不關心; [法] 中立, 不偏袒, 不重視",
     "exampleSentence": "In an effort to fight indifference, the president of the college introduced a new, stricter grading system.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ence",
+        "meaning": "a state, quality, or action"
+      }
+    ]
   },
   {
     "rank": 597,
@@ -8140,7 +8389,13 @@
     "definition": "suggesting war or military life.",
     "chineseMeaning": "a. 戰爭的, 軍事的, 尚武的, 威武的; [醫] 含鐵的",
     "exampleSentence": "Americans tend to remember Abraham Lincoln as kindly and wise, not at all martial, despite the fact that he was involved in the fiercest war America has even fought.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 599,
@@ -8221,7 +8476,7 @@
       {
         "type": "prefix",
         "form": "de-",
-        "meaning": "down, away, off, or removal"
+        "meaning": "down, away, or remove"
       }
     ]
   },
@@ -8238,7 +8493,7 @@
       {
         "type": "suffix",
         "form": "-ical",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -8267,7 +8522,7 @@
       {
         "type": "suffix",
         "form": "-ible",
-        "meaning": "capable of, fit for, or susceptible to"
+        "meaning": "able or likely to be"
       }
     ]
   },
@@ -8334,7 +8589,7 @@
       {
         "type": "suffix",
         "form": "-tion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -8404,7 +8659,13 @@
     "definition": "(v) approve, agree",
     "chineseMeaning": "vi. 同意, 一致, 同時發生; [法] 同時發生, 併發, 同意",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "prefix",
+        "form": "con-",
+        "meaning": "together or with"
+      }
+    ]
   },
   {
     "rank": 620,
@@ -8531,7 +8792,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -8544,7 +8805,13 @@
     "definition": "(sometimes followed by \"to\") causing harm or injury.",
     "chineseMeaning": "a. 有害的",
     "exampleSentence": "Many know that smoking is detrimental to your health, but processed sugar in large quantities is equally bad.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 632,
@@ -8555,7 +8822,13 @@
     "definition": "mixed feelings or emotions",
     "chineseMeaning": "n. 矛盾情緒; [醫] 矛盾情緒(兩種情感互相沖突)",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ence",
+        "meaning": "a state, quality, or action"
+      }
+    ]
   },
   {
     "rank": 633,
@@ -8581,7 +8854,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -8631,7 +8904,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -8725,7 +8998,7 @@
       {
         "type": "prefix",
         "form": "un-",
-        "meaning": "not, lacking, or reversal"
+        "meaning": "not or the opposite of"
       }
     ]
   },
@@ -8760,7 +9033,13 @@
     "definition": "difficult to handle or use especially because of size or weight.",
     "chineseMeaning": "a. 笨重的, 麻煩的, 累贅的",
     "exampleSentence": "Only ten years ago, being an avid reader and a traveler meant carrying a cumbersome backpack stuffed with books--these days we need only an e-reader.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-some",
+        "meaning": "having or causing a quality"
+      }
+    ]
   },
   {
     "rank": 650,
@@ -8805,7 +9084,13 @@
     "definition": "an established line of travel or access",
     "chineseMeaning": "n. 旅程, 旅行指南, 遊記; a. 巡迴的, 旅程的",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ary",
+        "meaning": "related to or connected with"
+      }
+    ]
   },
   {
     "rank": 654,
@@ -8825,7 +9110,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -8842,12 +9127,12 @@
       {
         "type": "prefix",
         "form": "sub-",
-        "meaning": "under, below, or beneath"
+        "meaning": "under or below"
       },
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -8860,7 +9145,13 @@
     "definition": "stopping and starting at irregular intervals.",
     "chineseMeaning": "a. 間歇的, 斷斷續續的; [化] 間歇的; 間斷的",
     "exampleSentence": "The intermittent thunder continued and the night was punctuated by cracks of lightning--a surreal sleepless night.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "prefix",
+        "form": "inter-",
+        "meaning": "between or among"
+      }
+    ]
   },
   {
     "rank": 657,
@@ -8909,7 +9200,7 @@
       {
         "type": "prefix",
         "form": "un-",
-        "meaning": "not, lacking, or reversal"
+        "meaning": "not or the opposite of"
       }
     ]
   },
@@ -8937,7 +9228,7 @@
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -8976,12 +9267,12 @@
       {
         "type": "prefix",
         "form": "counter-",
-        "meaning": "against, opposite, or in response to"
+        "meaning": "against or opposite"
       },
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -8994,7 +9285,13 @@
     "definition": "narrowly restricted in scope or outlook.",
     "chineseMeaning": "a. 教區的, 地方性的, 目光偏狹的",
     "exampleSentence": "Jasmine was sad to admit it, but her fledgling relationship with Jacob did not work out because his culinary tastes were simply too parochial; \"After all,\" she quipped on her blog, \"he considered Chef Boyardee ethnic food.\".",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 667,
@@ -9009,7 +9306,7 @@
       {
         "type": "prefix",
         "form": "eu-",
-        "meaning": "good, pleasant, or well"
+        "meaning": "good or pleasant"
       }
     ]
   },
@@ -9043,7 +9340,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -9067,13 +9364,7 @@
     "definition": "friendly.",
     "chineseMeaning": "a. 親切的, 和藹可親的; [法] 親和的, 和藹可親的",
     "exampleSentence": "Amy's name was very apt: she was so amiable that she was twice voted class president.",
-    "commonAffixes": [
-      {
-        "type": "suffix",
-        "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
-      }
-    ]
+    "commonAffixes": []
   },
   {
     "rank": 672,
@@ -9110,7 +9401,7 @@
       {
         "type": "suffix",
         "form": "-ize",
-        "meaning": "to make, cause to become, or treat as"
+        "meaning": "make, become, or treat as"
       }
     ]
   },
@@ -9150,7 +9441,7 @@
       {
         "type": "prefix",
         "form": "un-",
-        "meaning": "not, lacking, or reversal"
+        "meaning": "not or the opposite of"
       }
     ]
   },
@@ -9178,7 +9469,7 @@
       {
         "type": "prefix",
         "form": "circum-",
-        "meaning": "around or surrounding"
+        "meaning": "around"
       }
     ]
   },
@@ -9206,7 +9497,7 @@
       {
         "type": "prefix",
         "form": "de-",
-        "meaning": "down, away, off, or removal"
+        "meaning": "down, away, or remove"
       }
     ]
   },
@@ -9224,7 +9515,7 @@
       {
         "type": "suffix",
         "form": "-ical",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -9241,7 +9532,7 @@
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -9269,7 +9560,7 @@
       {
         "type": "prefix",
         "form": "un-",
-        "meaning": "not, lacking, or reversal"
+        "meaning": "not or the opposite of"
       }
     ]
   },
@@ -9320,7 +9611,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -9335,9 +9626,14 @@
     "exampleSentence": "Many have argued that Lee Harvey Oswald, JFK's assassin, was in collusion with other criminals; others maintain that Oswald was a lone gunman.",
     "commonAffixes": [
       {
+        "type": "prefix",
+        "form": "col-",
+        "meaning": "together or with"
+      },
+      {
         "type": "suffix",
         "form": "-sion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -9354,12 +9650,12 @@
       {
         "type": "prefix",
         "form": "co-",
-        "meaning": "together, jointly, or with"
+        "meaning": "together or with"
       },
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -9376,12 +9672,12 @@
       {
         "type": "prefix",
         "form": "ab-",
-        "meaning": "away from or off"
+        "meaning": "away from"
       },
       {
         "type": "suffix",
         "form": "-tion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -9399,7 +9695,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -9412,13 +9708,7 @@
     "definition": "to support financially.",
     "chineseMeaning": "vt. 簽名於下, 給...保險; vi. 經營保險業",
     "exampleSentence": "The latest symphony broadcast was made possible with underwriting from the Carnegie Endowment.",
-    "commonAffixes": [
-      {
-        "type": "prefix",
-        "form": "under-",
-        "meaning": "below, beneath, or insufficiently"
-      }
-    ]
+    "commonAffixes": []
   },
   {
     "rank": 695,
@@ -9429,7 +9719,13 @@
     "definition": "so great in size or force or extent as to elicit awe.",
     "chineseMeaning": "a. 巨大的, 巨像似的",
     "exampleSentence": "Few appreciate the colossal scale of the sun: if hollow, it could contain a million Earths.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 696,
@@ -9440,7 +9736,13 @@
     "definition": "(adj) related to the belief in the equality of all people, esp. in political, economic, or social spheres",
     "chineseMeaning": "a. 平等主義的; n. 平等主義",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-arian",
+        "meaning": "a person connected with or supporting something"
+      }
+    ]
   },
   {
     "rank": 697,
@@ -9455,7 +9757,7 @@
       {
         "type": "suffix",
         "form": "-ify",
-        "meaning": "to make, cause to become, or render"
+        "meaning": "make or become"
       }
     ]
   },
@@ -9639,7 +9941,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -9711,12 +10013,12 @@
       {
         "type": "prefix",
         "form": "un-",
-        "meaning": "not, lacking, or reversal"
+        "meaning": "not or the opposite of"
       },
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -9784,7 +10086,13 @@
     "definition": "belief in something.",
     "chineseMeaning": "n. 信任, 祭器臺, 供桌, 憑證; [法] 設計人, 創立人, 創設人",
     "exampleSentence": "He placed no credence in psychics, claiming that they offered no special powers beyond the ability to make people part with their money.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ence",
+        "meaning": "a state, quality, or action"
+      }
+    ]
   },
   {
     "rank": 726,
@@ -9838,7 +10146,7 @@
       {
         "type": "prefix",
         "form": "counter-",
-        "meaning": "against, opposite, or in response to"
+        "meaning": "against or opposite"
       }
     ]
   },
@@ -9899,7 +10207,7 @@
       {
         "type": "suffix",
         "form": "-ical",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -9949,7 +10257,7 @@
       {
         "type": "prefix",
         "form": "pre-",
-        "meaning": "before or in advance"
+        "meaning": "before"
       }
     ]
   },
@@ -9966,7 +10274,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -9983,7 +10291,7 @@
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -10001,7 +10309,7 @@
       {
         "type": "suffix",
         "form": "-ical",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -10045,7 +10353,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -10106,7 +10414,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -10135,6 +10443,11 @@
         "type": "prefix",
         "form": "im-",
         "meaning": "not or without"
+      },
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
       }
     ]
   },
@@ -10162,7 +10475,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -10202,7 +10515,7 @@
       {
         "type": "suffix",
         "form": "-sion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -10219,7 +10532,7 @@
       {
         "type": "suffix",
         "form": "-tion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -10236,7 +10549,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -10253,7 +10566,7 @@
       {
         "type": "prefix",
         "form": "sub-",
-        "meaning": "under, below, or beneath"
+        "meaning": "under or below"
       }
     ]
   },
@@ -10281,7 +10594,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -10331,7 +10644,7 @@
       {
         "type": "suffix",
         "form": "-ible",
-        "meaning": "capable of, fit for, or susceptible to"
+        "meaning": "able or likely to be"
       }
     ]
   },
@@ -10367,7 +10680,13 @@
     "definition": "the state that exists when one person or group has power over another.",
     "chineseMeaning": "n. 優勢, 支配地位",
     "exampleSentence": "The ascendancy of the Carlsbad water polo team is clear--they have a decade of championships behind them.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ancy",
+        "meaning": "a state or quality"
+      }
+    ]
   },
   {
     "rank": 769,
@@ -10378,7 +10697,13 @@
     "definition": "agreeable, conducive to comfort.",
     "chineseMeaning": "a. 和藹的, 親切的, 友善的; [醫] 頦的",
     "exampleSentence": "Betty is a genial young woman: everyone she meets is put at ease by her elegance and grace.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 770,
@@ -10442,7 +10767,7 @@
       {
         "type": "suffix",
         "form": "-ible",
-        "meaning": "capable of, fit for, or susceptible to"
+        "meaning": "able or likely to be"
       }
     ]
   },
@@ -10470,7 +10795,7 @@
       {
         "type": "prefix",
         "form": "mono-",
-        "meaning": "one, single, or the same"
+        "meaning": "one or single"
       }
     ]
   },
@@ -10487,7 +10812,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -10504,7 +10829,7 @@
       {
         "type": "suffix",
         "form": "-ism",
-        "meaning": "a doctrine, belief, system, or practice"
+        "meaning": "a belief, system, or practice"
       }
     ]
   },
@@ -10521,12 +10846,12 @@
       {
         "type": "prefix",
         "form": "pre-",
-        "meaning": "before or in advance"
+        "meaning": "before"
       },
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -10598,7 +10923,7 @@
       {
         "type": "prefix",
         "form": "fore-",
-        "meaning": "before, earlier, or in front"
+        "meaning": "before or in front"
       }
     ]
   },
@@ -10681,7 +11006,7 @@
       {
         "type": "prefix",
         "form": "mal-",
-        "meaning": "bad, badly, or harmful"
+        "meaning": "bad or harmful"
       }
     ]
   },
@@ -10709,7 +11034,7 @@
       {
         "type": "suffix",
         "form": "-ize",
-        "meaning": "to make, cause to become, or treat as"
+        "meaning": "make, become, or treat as"
       }
     ]
   },
@@ -10726,7 +11051,7 @@
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -10798,7 +11123,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -10871,7 +11196,7 @@
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -10888,7 +11213,7 @@
       {
         "type": "prefix",
         "form": "dis-",
-        "meaning": "apart, asunder, in two, not, or reversal"
+        "meaning": "apart, not, or remove"
       }
     ]
   },
@@ -10949,7 +11274,7 @@
       {
         "type": "suffix",
         "form": "-tion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -10977,7 +11302,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -10995,7 +11320,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -11023,7 +11348,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -11085,7 +11410,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -11113,7 +11438,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -11130,7 +11455,7 @@
       {
         "type": "prefix",
         "form": "de-",
-        "meaning": "down, away, off, or removal"
+        "meaning": "down, away, or remove"
       }
     ]
   },
@@ -11147,12 +11472,12 @@
       {
         "type": "prefix",
         "form": "anti-",
-        "meaning": "against, opposed to, or the opposite of"
+        "meaning": "against or opposite to"
       },
       {
         "type": "suffix",
         "form": "-ical",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -11169,7 +11494,7 @@
       {
         "type": "suffix",
         "form": "-ize",
-        "meaning": "to make, cause to become, or treat as"
+        "meaning": "make, become, or treat as"
       }
     ]
   },
@@ -11237,7 +11562,13 @@
     "definition": "expecting unquestioning obedience; characteristic of an absolute ruler The coach was dictatorial in his approach: no players could ever argue or question his approach.",
     "chineseMeaning": "a. 獨裁者的, 獨裁的, 獨斷的",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 834,
@@ -11252,7 +11583,7 @@
       {
         "type": "suffix",
         "form": "-ize",
-        "meaning": "to make, cause to become, or treat as"
+        "meaning": "make, become, or treat as"
       }
     ]
   },
@@ -11265,7 +11596,13 @@
     "definition": "extremely bad.",
     "chineseMeaning": "a. 深不可測的, 無底的",
     "exampleSentence": "Coach Ramsey took his newest player off the field after watching a few painful minutes of her abysmal performance.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 836,
@@ -11276,7 +11613,13 @@
     "definition": "leniency and compassion shown toward offenders by a person or agency charged with administering justice.",
     "chineseMeaning": "n. 仁慈, 寬厚, 仁厚",
     "exampleSentence": "In the final moments of the trial, during his closing speech, Phillips was nearly begging the judge for clemency.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ency",
+        "meaning": "a state or quality"
+      }
+    ]
   },
   {
     "rank": 837,
@@ -11302,7 +11645,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -11330,12 +11673,12 @@
       {
         "type": "prefix",
         "form": "un-",
-        "meaning": "not, lacking, or reversal"
+        "meaning": "not or the opposite of"
       },
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -11352,7 +11695,7 @@
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -11369,7 +11712,7 @@
       {
         "type": "prefix",
         "form": "neo-",
-        "meaning": "new or recent"
+        "meaning": "new"
       }
     ]
   },
@@ -11441,7 +11784,7 @@
       {
         "type": "prefix",
         "form": "ab-",
-        "meaning": "away from or off"
+        "meaning": "away from"
       }
     ]
   },
@@ -11454,7 +11797,13 @@
     "definition": "showing respect.",
     "chineseMeaning": "a. 恭敬的; [醫] 輸精管的",
     "exampleSentence": "If you ever have the chance to meet the president, stand up straight and be deferential.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 850,
@@ -11469,7 +11818,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -11491,7 +11840,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -11508,12 +11857,12 @@
       {
         "type": "prefix",
         "form": "a-/an-",
-        "meaning": "not, without, or lacking"
+        "meaning": "not or without"
       },
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -11526,7 +11875,13 @@
     "definition": "full of or showing high-spirited merriment.",
     "chineseMeaning": "a. 快活的, 高興的, 愉快的; [計] 國際演算法語言的朱爾斯文字",
     "exampleSentence": "The political candidate and his supporters were jovial once it was clear that she had won.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 854,
@@ -11546,7 +11901,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -11586,6 +11941,11 @@
         "type": "prefix",
         "form": "in-",
         "meaning": "not or without"
+      },
+      {
+        "type": "suffix",
+        "form": "-ence",
+        "meaning": "a state, quality, or action"
       }
     ]
   },
@@ -11602,7 +11962,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -11620,7 +11980,7 @@
       {
         "type": "prefix",
         "form": "de-",
-        "meaning": "down, away, off, or removal"
+        "meaning": "down, away, or remove"
       }
     ]
   },
@@ -11637,12 +11997,12 @@
       {
         "type": "prefix",
         "form": "counter-",
-        "meaning": "against, opposite, or in response to"
+        "meaning": "against or opposite"
       },
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -11659,7 +12019,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -11676,7 +12036,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -11693,7 +12053,7 @@
       {
         "type": "suffix",
         "form": "-ical",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -11723,7 +12083,13 @@
     "definition": "temporary cessation or suspension",
     "chineseMeaning": "n. 中止, 暫擱, 停止, 歸屬待定; [化] 潛態",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ance",
+        "meaning": "a state, quality, or action"
+      }
+    ]
   },
   {
     "rank": 866,
@@ -11738,7 +12104,7 @@
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -11832,7 +12198,7 @@
       {
         "type": "prefix",
         "form": "dis-",
-        "meaning": "apart, asunder, in two, not, or reversal"
+        "meaning": "apart, not, or remove"
       }
     ]
   },
@@ -11865,7 +12231,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -11882,7 +12248,7 @@
       {
         "type": "suffix",
         "form": "-ist",
-        "meaning": "a person who practices, supports, or believes in something"
+        "meaning": "a person who follows or practices something"
       }
     ]
   },
@@ -11921,7 +12287,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -11938,7 +12304,7 @@
       {
         "type": "prefix",
         "form": "dis-",
-        "meaning": "apart, asunder, in two, not, or reversal"
+        "meaning": "apart, not, or remove"
       }
     ]
   },
@@ -11979,7 +12345,13 @@
     "definition": "describing a lively atmosphere.",
     "chineseMeaning": "a. 酒宴的, 歡宴的, 歡樂的",
     "exampleSentence": "The wedding reception was convivial; friends who hadn't seen each other for ages drank and ate together before heading to the dance floor.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-al",
+        "meaning": "related to or having a quality"
+      }
+    ]
   },
   {
     "rank": 885,
@@ -11994,7 +12366,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -12007,7 +12379,13 @@
     "definition": "a pressing or urgent situation",
     "chineseMeaning": "n. 緊急, 急迫, 緊急事件",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ency",
+        "meaning": "a state or quality"
+      }
+    ]
   },
   {
     "rank": 887,
@@ -12018,7 +12396,13 @@
     "definition": "marked by lack of definite plan, purpose, or enthusiasm",
     "chineseMeaning": "a. 散漫的, 無條理的, 不連貫的",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ory",
+        "meaning": "related to or used for"
+      }
+    ]
   },
   {
     "rank": 888,
@@ -12055,7 +12439,7 @@
       {
         "type": "prefix",
         "form": "in-",
-        "meaning": "in, into, or within"
+        "meaning": "in or into"
       }
     ]
   },
@@ -12068,13 +12452,7 @@
     "definition": "a behavioral attribute that is distinctive and peculiar to an individual.",
     "chineseMeaning": "n. 弱點, 缺點",
     "exampleSentence": "When their new roommate sat staring at an oak tree for an hour, Marcia thought it indicated a mental problem, but Jeff assured her it was a harmless foible.",
-    "commonAffixes": [
-      {
-        "type": "suffix",
-        "form": "-ible",
-        "meaning": "capable of, fit for, or susceptible to"
-      }
-    ]
+    "commonAffixes": []
   },
   {
     "rank": 892,
@@ -12122,7 +12500,7 @@
       {
         "type": "suffix",
         "form": "-tion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -12150,7 +12528,7 @@
       {
         "type": "suffix",
         "form": "-tion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -12167,7 +12545,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -12184,7 +12562,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -12201,7 +12579,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -12214,7 +12592,13 @@
     "definition": "wealth as evidenced by sumptuous living.",
     "chineseMeaning": "n. 富裕, 豐富, 大量",
     "exampleSentence": "Russian oligarchs are famous for their opulence, living in fancy homes and dining on expensive cavier.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ence",
+        "meaning": "a state, quality, or action"
+      }
+    ]
   },
   {
     "rank": 901,
@@ -12262,7 +12646,7 @@
       {
         "type": "suffix",
         "form": "-tion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -12301,7 +12685,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -12314,7 +12698,13 @@
     "definition": "(n) mapmaking",
     "chineseMeaning": "n. 地圖製作, 製圖學, 製圖",
     "exampleSentence": "",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-graphy",
+        "meaning": "writing, recording, or describing"
+      }
+    ]
   },
   {
     "rank": 909,
@@ -12341,7 +12731,7 @@
       {
         "type": "prefix",
         "form": "ab-",
-        "meaning": "away from or off"
+        "meaning": "away from"
       }
     ]
   },
@@ -12358,7 +12748,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -12386,7 +12776,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -12435,9 +12825,14 @@
     "exampleSentence": "",
     "commonAffixes": [
       {
+        "type": "prefix",
+        "form": "per-",
+        "meaning": "through"
+      },
+      {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -12488,7 +12883,7 @@
       {
         "type": "prefix",
         "form": "mis-",
-        "meaning": "wrongly, badly, or incorrectly"
+        "meaning": "wrongly or badly"
       }
     ]
   },
@@ -12505,7 +12900,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -12533,7 +12928,7 @@
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -12550,7 +12945,7 @@
       {
         "type": "prefix",
         "form": "de-",
-        "meaning": "down, away, off, or removal"
+        "meaning": "down, away, or remove"
       }
     ]
   },
@@ -12622,7 +13017,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -12639,7 +13034,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -12667,7 +13062,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -12740,7 +13135,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -12757,7 +13152,7 @@
       {
         "type": "suffix",
         "form": "-ic",
-        "meaning": "related to, characterized by, or having the nature of"
+        "meaning": "related to or characterized by"
       }
     ]
   },
@@ -12774,7 +13169,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -12798,7 +13193,13 @@
     "definition": "charming in a childlike or naive way.",
     "chineseMeaning": "a. 引人注目的, 迷人的, 可愛的",
     "exampleSentence": "She was winsome by nature, and many people were drawn to this free and playful spirit. Basic Words.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-some",
+        "meaning": "having or causing a quality"
+      }
+    ]
   },
   {
     "rank": 944,
@@ -12824,7 +13225,7 @@
       {
         "type": "prefix",
         "form": "auto-",
-        "meaning": "self or by oneself"
+        "meaning": "self"
       }
     ]
   },
@@ -12846,7 +13247,7 @@
       {
         "type": "suffix",
         "form": "-ible",
-        "meaning": "capable of, fit for, or susceptible to"
+        "meaning": "able or likely to be"
       }
     ]
   },
@@ -12885,12 +13286,12 @@
       {
         "type": "prefix",
         "form": "miso-",
-        "meaning": "hatred or dislike"
+        "meaning": "hatred"
       },
       {
         "type": "suffix",
         "form": "-ist",
-        "meaning": "a person who practices, supports, or believes in something"
+        "meaning": "a person who follows or practices something"
       }
     ]
   },
@@ -12918,7 +13319,7 @@
       {
         "type": "prefix",
         "form": "mis-",
-        "meaning": "wrongly, badly, or incorrectly"
+        "meaning": "wrongly or badly"
       }
     ]
   },
@@ -12980,7 +13381,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -13085,7 +13486,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -13102,7 +13503,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -13130,7 +13531,7 @@
       {
         "type": "prefix",
         "form": "co-",
-        "meaning": "together, jointly, or with"
+        "meaning": "together or with"
       }
     ]
   },
@@ -13191,7 +13592,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -13208,7 +13609,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -13236,7 +13637,12 @@
       {
         "type": "prefix",
         "form": "pre-",
-        "meaning": "before or in advance"
+        "meaning": "before"
+      },
+      {
+        "type": "suffix",
+        "form": "-ence",
+        "meaning": "a state, quality, or action"
       }
     ]
   },
@@ -13253,12 +13659,12 @@
       {
         "type": "prefix",
         "form": "mal-",
-        "meaning": "bad, badly, or harmful"
+        "meaning": "bad or harmful"
       },
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -13297,7 +13703,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -13320,7 +13726,7 @@
       {
         "type": "suffix",
         "form": "-ible",
-        "meaning": "capable of, fit for, or susceptible to"
+        "meaning": "able or likely to be"
       }
     ]
   },
@@ -13337,7 +13743,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -13354,7 +13760,7 @@
       {
         "type": "suffix",
         "form": "-ish",
-        "meaning": "somewhat, resembling, or characterized by"
+        "meaning": "somewhat like or having the quality of"
       }
     ]
   },
@@ -13371,7 +13777,7 @@
       {
         "type": "suffix",
         "form": "-tion",
-        "meaning": "an action, process, state, or result"
+        "meaning": "an action, process, or result"
       }
     ]
   },
@@ -13388,7 +13794,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -13401,7 +13807,13 @@
     "definition": "wasting time.",
     "chineseMeaning": "a. 拖拉的; [法] 延期的, 拖延的, 慢的",
     "exampleSentence": "Lawyers use dilatory tactics so that it takes years before the case is actually decided.",
-    "commonAffixes": []
+    "commonAffixes": [
+      {
+        "type": "suffix",
+        "form": "-ory",
+        "meaning": "related to or used for"
+      }
+    ]
   },
   {
     "rank": 987,
@@ -13416,7 +13828,7 @@
       {
         "type": "suffix",
         "form": "-ist",
-        "meaning": "a person who practices, supports, or believes in something"
+        "meaning": "a person who follows or practices something"
       }
     ]
   },
@@ -13433,7 +13845,7 @@
       {
         "type": "suffix",
         "form": "-ish",
-        "meaning": "somewhat, resembling, or characterized by"
+        "meaning": "somewhat like or having the quality of"
       }
     ]
   },
@@ -13472,7 +13884,7 @@
       {
         "type": "suffix",
         "form": "-ous",
-        "meaning": "full of, having, or characterized by"
+        "meaning": "having or full of"
       }
     ]
   },
@@ -13500,7 +13912,7 @@
       {
         "type": "suffix",
         "form": "-ism",
-        "meaning": "a doctrine, belief, system, or practice"
+        "meaning": "a belief, system, or practice"
       }
     ]
   },
@@ -13517,7 +13929,7 @@
       {
         "type": "suffix",
         "form": "-ist",
-        "meaning": "a person who practices, supports, or believes in something"
+        "meaning": "a person who follows or practices something"
       }
     ]
   },
@@ -13534,7 +13946,7 @@
       {
         "type": "suffix",
         "form": "-ity",
-        "meaning": "the state, condition, or quality of"
+        "meaning": "a state or quality"
       }
     ]
   },
@@ -13562,7 +13974,7 @@
       {
         "type": "suffix",
         "form": "-ive",
-        "meaning": "having the nature or tendency of; performing an action"
+        "meaning": "having a quality or tendency"
       }
     ]
   },
@@ -13584,7 +13996,7 @@
       {
         "type": "suffix",
         "form": "-able",
-        "meaning": "capable of, fit for, or worthy of"
+        "meaning": "able to be or suitable for"
       }
     ]
   },
@@ -13601,7 +14013,7 @@
       {
         "type": "prefix",
         "form": "dis-",
-        "meaning": "apart, asunder, in two, not, or reversal"
+        "meaning": "apart, not, or remove"
       }
     ]
   },

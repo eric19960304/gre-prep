@@ -4,7 +4,7 @@ import { createId } from '../utils/id'
 import { validateVocabularyImport } from '../utils/importValidation'
 
 const STORAGE_KEY = 'lexilo:vocabulary:v1'
-const SEED_REVISION = 3
+const SEED_REVISION = 4
 
 const seedByWord = new Map(
   (seedVocabulary as SeedVocabularyWord[]).map((seed) => [seed.word.toLocaleLowerCase(), seed]),

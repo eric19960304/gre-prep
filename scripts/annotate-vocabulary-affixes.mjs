@@ -9,22 +9,22 @@ const sourcePath = resolve(projectRoot, 'gre_vocabulary_1000_zh_TW.json')
 const prefixRules = [
   {
     form: 'a-/an-',
-    meaning: 'not, without, or lacking',
+    meaning: 'not or without',
     words: ['anarchy', 'anomalous', 'anomaly', 'apathetic', 'apathy', 'amorphous'],
   },
   {
     form: 'ab-',
-    meaning: 'away from or off',
+    meaning: 'away from',
     words: ['abdicate', 'aberrant', 'aberration', 'abjure', 'abscond', 'abstain'],
   },
   {
     form: 'anti-',
-    meaning: 'against, opposed to, or the opposite of',
+    meaning: 'against or opposite to',
     words: ['antipathy', 'antithetical'],
   },
   {
     form: 'auto-',
-    meaning: 'self or by oneself',
+    meaning: 'self',
     words: ['autonomous', 'autonomously'],
   },
   {
@@ -34,27 +34,47 @@ const prefixRules = [
   },
   {
     form: 'circum-',
-    meaning: 'around or surrounding',
+    meaning: 'around',
     words: ['circumscribe', 'circumvent'],
   },
   {
     form: 'co-',
-    meaning: 'together, jointly, or with',
+    meaning: 'together or with',
     words: ['coagulate', 'coalesce', 'cohesive'],
   },
   {
+    form: 'col-',
+    meaning: 'together or with',
+    words: ['collusion'],
+  },
+  {
+    form: 'com-',
+    meaning: 'together or with',
+    words: ['commensurate', 'complementary', 'compound'],
+  },
+  {
+    form: 'con-',
+    meaning: 'together or with',
+    words: ['concur', 'consolidate', 'converge'],
+  },
+  {
     form: 'counter-',
-    meaning: 'against, opposite, or in response to',
+    meaning: 'against or opposite',
     words: ['counterintuitive', 'counterpoint', 'counterproductive'],
   },
   {
+    form: 'dicho-',
+    meaning: 'two or divided',
+    words: ['dichotomy'],
+  },
+  {
     form: 'de-',
-    meaning: 'down, away, off, or removal',
+    meaning: 'down, away, or remove',
     words: ['debase', 'debunk', 'deface', 'deflect', 'degrade', 'demean', 'desecrate', 'detached', 'devolve'],
   },
   {
     form: 'dis-',
-    meaning: 'apart, asunder, in two, not, or reversal',
+    meaning: 'apart, not, or remove',
     words: [
       'disabuse',
       'disaffected',
@@ -74,17 +94,17 @@ const prefixRules = [
   },
   {
     form: 'en-',
-    meaning: 'in, into, or cause to become',
+    meaning: 'in, into, or make',
     words: ['engender', 'entitlement', 'entrenched'],
   },
   {
     form: 'eu-',
-    meaning: 'good, pleasant, or well',
+    meaning: 'good or pleasant',
     words: ['eulogy', 'euphemism', 'euphoria', 'euphoric'],
   },
   {
     form: 'ex-',
-    meaning: 'out of, away from, or free from',
+    meaning: 'out of or free from',
     words: ['exculpate', 'exonerate'],
   },
   {
@@ -94,23 +114,28 @@ const prefixRules = [
   },
   {
     form: 'fore-',
-    meaning: 'before, earlier, or in front',
+    meaning: 'before or in front',
     words: ['foreshadow', 'forestall'],
   },
   {
     form: 'hetero-',
-    meaning: 'different or other',
+    meaning: 'different',
     words: ['heterogeneous'],
   },
   {
     form: 'homo-',
-    meaning: 'same or alike',
+    meaning: 'same',
     words: ['homogeneous'],
   },
   {
     form: 'hyper-',
-    meaning: 'over, beyond, or excessive',
+    meaning: 'over or excessive',
     words: ['hyperbole'],
+  },
+  {
+    form: 'inter-',
+    meaning: 'between or among',
+    words: ['intermittent'],
   },
   {
     form: 'in-',
@@ -137,7 +162,7 @@ const prefixRules = [
   },
   {
     form: 'in-',
-    meaning: 'in, into, or within',
+    meaning: 'in or into',
     words: ['incorporate', 'ingrained'],
   },
   {
@@ -162,7 +187,7 @@ const prefixRules = [
   },
   {
     form: 'im-',
-    meaning: 'in, into, or inward',
+    meaning: 'in or inward',
     words: ['implode'],
   },
   {
@@ -177,47 +202,57 @@ const prefixRules = [
   },
   {
     form: 'mal-',
-    meaning: 'bad, badly, or harmful',
+    meaning: 'bad or harmful',
     words: ['malevolent', 'malodorous'],
   },
   {
     form: 'meta-',
-    meaning: 'change, transformation, or beyond',
+    meaning: 'change or beyond',
     words: ['metamorphosis'],
   },
   {
     form: 'mis-',
-    meaning: 'wrongly, badly, or incorrectly',
+    meaning: 'wrongly or badly',
     words: ['misconstrue', 'miscreant'],
   },
   {
     form: 'miso-',
-    meaning: 'hatred or dislike',
+    meaning: 'hatred',
     words: ['misogynist'],
   },
   {
     form: 'mono-',
-    meaning: 'one, single, or the same',
+    meaning: 'one or single',
     words: ['monotony'],
   },
   {
     form: 'neo-',
-    meaning: 'new or recent',
+    meaning: 'new',
     words: ['neophyte'],
   },
   {
     form: 'para-',
-    meaning: 'beside, beyond, or contrary to',
+    meaning: 'beside, beyond, or against',
     words: ['paradoxical'],
   },
   {
+    form: 'per-',
+    meaning: 'through',
+    words: ['permeable', 'pervasive'],
+  },
+  {
+    form: 'phil-/philo-',
+    meaning: 'love or liking',
+    words: ['philanthropic'],
+  },
+  {
     form: 'pre-',
-    meaning: 'before or in advance',
+    meaning: 'before',
     words: ['preamble', 'precocious', 'preclude', 'preempt', 'precedent', 'precursor', 'prescience'],
   },
   {
     form: 'pro-',
-    meaning: 'forward, in front of, or in favor of',
+    meaning: 'forward or in favor of',
     words: ['proponent'],
   },
   {
@@ -227,22 +262,22 @@ const prefixRules = [
   },
   {
     form: 'sub-',
-    meaning: 'under, below, or beneath',
+    meaning: 'under or below',
     words: ['subside', 'subsume', 'subversive'],
   },
   {
     form: 'super-',
-    meaning: 'above, beyond, or excessive',
+    meaning: 'above or excessive',
     words: ['superfluous', 'supersede'],
   },
   {
     form: 'trans-',
-    meaning: 'across, through, or beyond',
+    meaning: 'across or through',
     words: ['transgression', 'transient', 'transitory'],
   },
   {
     form: 'un-',
-    meaning: 'not, lacking, or reversal',
+    meaning: 'not or the opposite of',
     words: [
       'uncanny',
       'uncompromising',
@@ -257,110 +292,185 @@ const prefixRules = [
   },
   {
     form: 'under-',
-    meaning: 'below, beneath, or insufficiently',
-    words: ['undermine', 'underscore', 'underwrite'],
+    meaning: 'below or not enough',
+    words: ['undermine', 'underscore'],
   },
 ]
 
 const suffixRules = [
   {
     form: '-able',
-    meaning: 'capable of, fit for, or worthy of',
-    matches: (word) => word.endsWith('able'),
+    meaning: 'able to be or suitable for',
+    matches: (word) => word.endsWith('able') && !['affable', 'amiable', 'equitable'].includes(word),
   },
   {
     form: '-ible',
-    meaning: 'capable of, fit for, or susceptible to',
-    matches: (word) => word.endsWith('ible'),
+    meaning: 'able or likely to be',
+    matches: (word) => word.endsWith('ible') && word !== 'foible',
   },
   {
     form: '-ful',
-    meaning: 'full of, having, or characterized by',
+    meaning: 'full of or having',
     words: ['fanciful'],
   },
   {
     form: '-less',
-    meaning: 'without or lacking',
+    meaning: 'without',
     words: ['guileless'],
   },
   {
     form: '-ish',
-    meaning: 'somewhat, resembling, or characterized by',
+    meaning: 'somewhat like or having the quality of',
     words: ['boorish', 'peevish', 'raffish'],
   },
   {
     form: '-wise',
-    meaning: 'in the manner of, direction of, or with regard to',
+    meaning: 'in the manner of or regarding',
     words: ['likewise'],
   },
   {
+    form: '-ling',
+    meaning: 'a young, small, or lesser person or thing',
+    words: ['fledgling'],
+  },
+  {
+    form: '-some',
+    meaning: 'having or causing a quality',
+    words: ['cumbersome', 'winsome'],
+  },
+  {
     form: '-archy',
-    meaning: 'rule, government, or an ordered system',
+    meaning: 'rule or an ordered system',
     words: ['anarchy', 'hierarchy'],
   },
   {
     form: '-cracy',
-    meaning: 'rule, government, or a governing system',
+    meaning: 'rule or government',
     words: ['bureaucracy'],
   },
   {
     form: '-pathy',
-    meaning: 'feeling, emotion, suffering, or disease',
+    meaning: 'feeling or disease',
     words: ['apathy', 'antipathy'],
   },
   {
     form: '-ism',
-    meaning: 'a doctrine, belief, system, or practice',
+    meaning: 'a belief, system, or practice',
     words: ['activism', 'altruism', 'chauvinism', 'jingoism'],
   },
   {
     form: '-ist',
-    meaning: 'a person who practices, supports, or believes in something',
+    meaning: 'a person who follows or practices something',
     words: ['chauvinist', 'egotist', 'hedonist', 'misogynist'],
   },
   {
     form: '-ify',
-    meaning: 'to make, cause to become, or render',
+    meaning: 'make or become',
     words: ['exemplify', 'fortify', 'mollify', 'qualify'],
   },
   {
     form: '-ize',
-    meaning: 'to make, cause to become, or treat as',
+    meaning: 'make, become, or treat as',
     words: ['aggrandize', 'antagonize', 'galvanize', 'lionize', 'mesmerize', 'ostracize', 'patronize'],
   },
   {
+    form: '-al',
+    meaning: 'related to or having a quality',
+    matches: (word) => word.endsWith('al') && !word.endsWith('ical') && !['banal', 'zeal'].includes(word),
+  },
+  {
+    form: '-ary',
+    meaning: 'related to or connected with',
+    matches: (word) => word.endsWith('ary') && !['quandary', 'wary'].includes(word),
+  },
+  {
+    form: '-ory',
+    meaning: 'related to or used for',
+    matches: (word) => word.endsWith('ory'),
+  },
+  {
+    form: '-ance',
+    meaning: 'a state, quality, or action',
+    words: ['abeyance', 'dissonance', 'temperance', 'variance'],
+  },
+  {
+    form: '-ence',
+    meaning: 'a state, quality, or action',
+    words: [
+      'ambivalence',
+      'credence',
+      'deference',
+      'diffidence',
+      'indifference',
+      'intransigence',
+      'opulence',
+      'prescience',
+      'truculence',
+    ],
+  },
+  {
+    form: '-ancy',
+    meaning: 'a state or quality',
+    words: ['ascendancy', 'discrepancy'],
+  },
+  {
+    form: '-ency',
+    meaning: 'a state or quality',
+    words: ['clemency', 'exigency'],
+  },
+  {
+    form: '-ment',
+    meaning: 'an action, result, or state',
+    words: ['entitlement'],
+  },
+  {
+    form: '-arian',
+    meaning: 'a person connected with or supporting something',
+    words: ['egalitarian'],
+  },
+  {
+    form: '-tomy',
+    meaning: 'cutting or division',
+    words: ['dichotomy'],
+  },
+  {
+    form: '-graphy',
+    meaning: 'writing, recording, or describing',
+    words: ['cartography'],
+  },
+  {
     form: '-ity',
-    meaning: 'the state, condition, or quality of',
+    meaning: 'a state or quality',
     matches: (word) => word.endsWith('ity'),
   },
   {
     form: '-ous',
-    meaning: 'full of, having, or characterized by',
+    meaning: 'having or full of',
     matches: (word) => word.endsWith('ous'),
   },
   {
     form: '-ive',
-    meaning: 'having the nature or tendency of; performing an action',
-    matches: (word) => word.endsWith('ive') && word !== 'contrive',
+    meaning: 'having a quality or tendency',
+    matches: (word) => word.endsWith('ive') && !['contrive', 'derive', 'naive'].includes(word),
   },
   {
     form: '-tion',
-    meaning: 'an action, process, state, or result',
+    meaning: 'an action, process, or result',
     matches: (word) => word.endsWith('tion'),
   },
   {
     form: '-sion',
-    meaning: 'an action, process, state, or result',
+    meaning: 'an action, process, or result',
     matches: (word) => word.endsWith('sion'),
   },
   {
     form: '-ic',
-    meaning: 'related to, characterized by, or having the nature of',
+    meaning: 'related to or characterized by',
     matches: (word) => word.endsWith('ic'),
   },
   {
     form: '-ical',
-    meaning: 'related to, characterized by, or having the nature of',
+    meaning: 'related to or characterized by',
     matches: (word) => word.endsWith('ical'),
   },
 ]
@@ -413,6 +523,26 @@ const annotatedSource = source.map((item) => ({
   ...item,
   common_affixes: affixesFor(item.vocab),
 }))
+
+const uncommonMeaningWords = ['asunder', 'doctrine', 'render', 'reversal', 'susceptible']
+for (const item of annotatedSeed) {
+  const seen = new Set()
+  for (const affix of item.commonAffixes) {
+    const key = `${affix.type}:${affix.form}`
+    if (seen.has(key)) throw new Error(`${item.word} has duplicate affix clue ${key}.`)
+    seen.add(key)
+    if (affix.meaning.length > 65) throw new Error(`${item.word} has an overly long meaning for ${affix.form}.`)
+    if (uncommonMeaningWords.some((word) => affix.meaning.toLocaleLowerCase().includes(word))) {
+      throw new Error(`${item.word} uses uncommon wording in the meaning for ${affix.form}.`)
+    }
+    if (affix.type === 'prefix' && !affix.form.endsWith('-')) {
+      throw new Error(`${item.word} has malformed prefix ${affix.form}.`)
+    }
+    if (affix.type === 'suffix' && !affix.form.startsWith('-')) {
+      throw new Error(`${item.word} has malformed suffix ${affix.form}.`)
+    }
+  }
+}
 
 writeFileSync(seedPath, `${JSON.stringify(annotatedSeed, null, 2)}\n`, 'utf8')
 writeFileSync(sourcePath, `${JSON.stringify(annotatedSource, null, 2)}\n`, 'utf8')

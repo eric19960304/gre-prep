@@ -22,12 +22,12 @@ describe('WordDetails', () => {
             {
               type: 'prefix',
               form: 'anti-',
-              meaning: 'against, opposed to, or the opposite of',
+              meaning: 'against or opposite to',
             },
             {
               type: 'suffix',
               form: '-pathy',
-              meaning: 'feeling, emotion, suffering, or disease',
+              meaning: 'feeling or disease',
             },
           ],
         })}
@@ -36,8 +36,8 @@ describe('WordDetails', () => {
     )
 
     const section = screen.getByText('Common prefix and suffix').closest('section')
-    expect(section).toHaveTextContent('anti- means against, opposed to, or the opposite of.')
-    expect(section).toHaveTextContent('-pathy means feeling, emotion, suffering, or disease.')
+    expect(section).toHaveTextContent('anti- means against or opposite to.')
+    expect(section).toHaveTextContent('-pathy means feeling or disease.')
   })
 
   it('hides the section when a word has no reliable affix clue', () => {
