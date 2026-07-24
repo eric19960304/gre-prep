@@ -61,9 +61,8 @@ export function WordsPage() {
     <main className="page-container pb-28 md:pb-12">
       <div className="mb-6 flex min-w-0 items-end justify-between gap-4">
         <div className="min-w-0">
-          <p className="eyebrow"><Sparkles size={13} />Your collection</p>
+          <p className="eyebrow"><Sparkles size={13} />High-frequency vocabulary for GRE</p>
           <h1 className="page-title">Words worth knowing.</h1>
-          <p className="mt-2 text-sm text-muted dark:text-stone-400"><strong className="text-ink dark:text-white">{words.length.toLocaleString()}</strong> words in your personal GRE lexicon</p>
         </div>
         <div className="hidden items-center gap-2 sm:flex">
           <input ref={fileInput} type="file" accept="application/json,.json" className="hidden" onChange={(event) => handleImport(event.target.files?.[0])} aria-label="Import vocabulary JSON" />
