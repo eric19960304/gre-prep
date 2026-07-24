@@ -1,6 +1,7 @@
 import { CheckCircle2, Clock3, Edit3, RotateCcw, Trash2 } from 'lucide-react'
 import type { VocabularyWord } from '../types/vocabulary'
 import { formatReviewDate } from '../utils/date'
+import { CommonAffixes } from './CommonAffixes'
 import { Modal } from './Modal'
 
 export function WordDetails({ word, onClose, onEdit, onDelete, onToggleMastered }: {
@@ -17,24 +18,7 @@ export function WordDetails({ word, onClose, onEdit, onDelete, onToggleMastered 
       <div className="space-y-6 p-5 md:p-7">
         {word.chineseMeaning && <section><p className="detail-label">Chinese meaning</p><p lang="zh-Hant" className="mt-1 text-lg leading-relaxed text-ink dark:text-white">{word.chineseMeaning}</p></section>}
         <section><p className="detail-label">Definition</p><p className="mt-1 leading-relaxed text-ink dark:text-stone-100">{word.definition}</p></section>
-        {word.commonAffixes?.length ? (
-          <section>
-            <p className="detail-label">Common prefix and suffix</p>
-            <div className="mt-2 space-y-2">
-              {word.commonAffixes.map((affix) => (
-                <div key={`${affix.type}-${affix.form}`} className="rounded-2xl border border-ink/8 bg-ink/[.025] p-3.5 dark:border-white/8 dark:bg-white/[.035]">
-                  <div className="flex items-center gap-2">
-                    <span className="font-display text-lg font-bold text-accent-deep dark:text-accent-light">{affix.form}</span>
-                    <span className="rounded-full bg-accent/10 px-2 py-0.5 text-[9px] font-black uppercase tracking-wider text-accent-deep dark:text-accent-light">{affix.type}</span>
-                  </div>
-                  <p className="mt-1 text-sm leading-relaxed text-muted dark:text-stone-300">
-                    <span className="font-semibold text-ink dark:text-stone-100">Meaning:</span> {affix.meaning}.
-                  </p>
-                </div>
-              ))}
-            </div>
-          </section>
-        ) : null}
+        <CommonAffixes affixes={word.commonAffixes} />
         {word.exampleSentence && <section className="rounded-2xl border-l-4 border-accent bg-accent/7 p-4"><p className="detail-label">In context</p><p className="mt-1 font-display text-lg italic leading-relaxed text-ink dark:text-stone-100">“{word.exampleSentence}”</p></section>}
         {word.notes && <section><p className="detail-label">Notes</p><p className="mt-1 whitespace-pre-wrap leading-relaxed text-ink dark:text-stone-100">{word.notes}</p></section>}
         <div className="flex flex-wrap gap-2">{word.tags.map((tag) => <span key={tag} className="tag-pill">{tag}</span>)}</div>
