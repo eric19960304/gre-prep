@@ -248,7 +248,7 @@ select:focus-visible {
   font-family: Cambria, "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
 }
 
-.practice-page :where(h1, h2, h3, p, span, button, label, legend, select, strong) {
+.practice-page :where(h1:not(.page-title), h2, h3, p, span, button, label, legend, select, strong) {
   font-family: inherit !important;
   font-weight: 400 !important;
 }
