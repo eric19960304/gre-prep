@@ -158,9 +158,9 @@ Good and Easy use these level intervals in days:
 
 The level is capped at 7. Reaching level 7 automatically marks the word as mastered.
 
-## Import and export
+## Import and export service boundary
 
-The Words page accepts a UTF-8 `.json` file containing an array. A minimal record is:
+The storage service can validate a UTF-8 `.json` file containing an array. A minimal record is:
 
 ```json
 [
@@ -177,7 +177,7 @@ The Words page accepts a UTF-8 `.json` file containing an array. A minimal recor
 
 Only `word` and `definition` are required. Missing IDs, timestamps, and review fields receive safe defaults. Invalid records are skipped, and duplicates are detected case-insensitively both within the import and against existing words.
 
-Export downloads the complete `VocabularyWord[]` collection, including review progress. That exported file can be imported into another Choco GRE installation.
+The export service can serialize the complete `VocabularyWord[]` collection, including review progress. The current Words page does not expose Import or Export controls.
 
 ## Production deployment
 
