@@ -12,7 +12,7 @@ import { useVocabulary } from '../hooks/useVocabulary'
 import type { VocabularyDraft, WordFilters } from '../types/vocabulary'
 import { searchAndFilterWords } from '../utils/vocabulary'
 
-const initialFilters: WordFilters = { query: '', tag: '', status: 'all', sort: 'priority' }
+const initialFilters: WordFilters = { query: '', tag: '', status: 'new', sort: 'priority' }
 
 export function WordsPage() {
   const { words, addWord, updateWord, deleteWord, toggleMastered, markWordViewed, importWords, exportWords } = useVocabulary()
@@ -83,7 +83,7 @@ export function WordsPage() {
           </div>
         </div>
         <section className="min-w-0" aria-label="Vocabulary words">
-          <div className="mb-3 flex items-center justify-between px-1"><p className="text-xs font-bold uppercase tracking-wider text-muted">{filtered.length.toLocaleString()} result{filtered.length === 1 ? '' : 's'}</p>{(filters.query || filters.tag || filters.status !== 'all') && <button type="button" className="text-xs font-bold text-accent-deep dark:text-accent-light" onClick={() => setFilters(initialFilters)}>Clear filters</button>}</div>
+          <div className="mb-3 flex items-center justify-between px-1"><p className="text-xs font-bold uppercase tracking-wider text-muted">{filtered.length.toLocaleString()} result{filtered.length === 1 ? '' : 's'}</p>{(filters.query || filters.tag || filters.status !== 'new') && <button type="button" className="text-xs font-bold text-accent-deep dark:text-accent-light" onClick={() => setFilters(initialFilters)}>Clear filters</button>}</div>
           {filtered.length ? (
             <div className="grid gap-3 xl:grid-cols-2">
               {filtered.slice(0, visibleCount).map((word) => <WordCard key={word.id} word={word} onOpen={() => openWord(word.id)} />)}

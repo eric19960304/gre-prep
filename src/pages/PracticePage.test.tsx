@@ -20,6 +20,7 @@ describe('PracticePage', () => {
     expect(screen.queryByLabelText('Practice progress')).not.toBeInTheDocument()
     expect(screen.queryByRole('button', { name: /Question 2, Reading Comprehension/ })).not.toBeInTheDocument()
     expect(screen.getByText('Question type')).toBeInTheDocument()
+    expect(screen.getByRole('option', { name: 'Unanswered' })).toBeInTheDocument()
     expect(screen.getByRole('combobox', { name: 'Answer status' })).toHaveValue('unanswered')
     expect(screen.getByText('100 unanswered')).toBeInTheDocument()
 

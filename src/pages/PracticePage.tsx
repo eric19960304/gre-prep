@@ -334,7 +334,7 @@ export function PracticePage() {
                 value={statusFilter}
                 onChange={(event) => { setIsRetrying(false); setStatusFilter(event.target.value as PracticeStatusFilter) }}
               >
-                <option value="unanswered">Unanswered (default)</option>
+                <option value="unanswered">Unanswered</option>
                 <option value="all">All statuses</option>
                 <option value="answered">Answered</option>
                 <option value="incorrect">Incorrect</option>

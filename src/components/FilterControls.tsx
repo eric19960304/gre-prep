@@ -8,7 +8,7 @@ const statuses: { value: WordStatus; label: string }[] = [
 
 export function FilterControls({ filters, tags, onChange }: { filters: WordFilters; tags: string[]; onChange: (filters: WordFilters) => void }) {
   const set = <Key extends keyof WordFilters>(key: Key, value: WordFilters[Key]) => onChange({ ...filters, [key]: value })
-  const activeCount = Number(Boolean(filters.query)) + Number(Boolean(filters.tag)) + Number(filters.status !== 'all')
+  const activeCount = Number(Boolean(filters.query)) + Number(Boolean(filters.tag)) + Number(filters.status !== 'new')
   return (
     <section className="surface-card max-w-full overflow-hidden p-3 sm:p-4" aria-label="Word filters">
       <div className="flex gap-2">

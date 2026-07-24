@@ -110,7 +110,7 @@ Sources used for the audit:
 - [CrunchPrep: 101 High-Frequency GRE Words](https://crunchprep.com/assets/uploads/2015/10/101-High-Frequency-GRE-words-CrunchPrepGRE.pdf)
 - [GRE Prep Club: vocabulary frequency in public ETS material](https://gre.myprepclub.com/forum/gre-prep-club-official-vocabulary-lists-for-the-gre-20466.html)
 
-Each source record has a `rank_signals` object showing its publisher-shortlist memberships, broader-list overlap count, and usable ETS-guide match count. Exact ordering among words with similar evidence remains approximate, but alphabetical source order is never used as a ranking signal. In the website, the Words page defaults to **Study priority** and shows the rank on each card.
+Each source record has a `rank_signals` object showing its publisher-shortlist memberships, broader-list overlap count, and usable ETS-guide match count. Exact ordering among words with similar evidence remains approximate, but alphabetical source order is never used as a ranking signal. In the website, the Words page defaults to the **New** status and **Study priority** sorting, and shows the rank on each card.
 
 ## GRE Verbal Reasoning practice bank
 
