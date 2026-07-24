@@ -36,8 +36,10 @@ describe('WordDetails', () => {
     )
 
     const section = screen.getByText('Common prefix and suffix').closest('section')
-    expect(section).toHaveTextContent('anti- means against or opposite to.')
-    expect(section).toHaveTextContent('-pathy means feeling or disease.')
+    expect(section).toHaveTextContent('anti-')
+    expect(section).toHaveTextContent('Meaning: against or opposite to.')
+    expect(section).toHaveTextContent('-pathy')
+    expect(section).toHaveTextContent('Meaning: feeling or disease.')
   })
 
   it('hides the section when a word has no reliable affix clue', () => {

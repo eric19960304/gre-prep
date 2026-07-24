@@ -28,7 +28,7 @@ export function WordDetails({ word, onClose, onEdit, onDelete, onToggleMastered 
                     <span className="rounded-full bg-accent/10 px-2 py-0.5 text-[9px] font-black uppercase tracking-wider text-accent-deep dark:text-accent-light">{affix.type}</span>
                   </div>
                   <p className="mt-1 text-sm leading-relaxed text-muted dark:text-stone-300">
-                    <span className="font-semibold text-ink dark:text-stone-100">{affix.form}</span> means {affix.meaning}.
+                    <span className="font-semibold text-ink dark:text-stone-100">Meaning:</span> {affix.meaning}.
                   </p>
                 </div>
               ))}
