@@ -1,4 +1,4 @@
-import type { VocabularyWord } from '../types/vocabulary'
+import type { CommonAffix, VocabularyWord } from '../types/vocabulary'
 import { createId } from './id'
 
 export type ImportResult = {
@@ -12,6 +12,17 @@ function isRecord(value: unknown): value is Record<string, unknown> {
 
 function optionalString(value: unknown): string | undefined {
   return typeof value === 'string' && value.trim() ? value.trim() : undefined
+}
+
+function optionalCommonAffixes(value: unknown): CommonAffix[] | undefined {
+  if (!Array.isArray(value)) return undefined
+  return value.flatMap((affix) => {
+    if (!isRecord(affix)) return []
+    if (affix.type !== 'prefix' && affix.type !== 'suffix') return []
+    const form = optionalString(affix.form)
+    const meaning = optionalString(affix.meaning)
+    return form && meaning ? [{ type: affix.type, form, meaning }] : []
+  })
 }
 
 export function validateVocabularyImport(input: unknown, now = new Date()): ImportResult {
@@ -48,6 +59,7 @@ export function validateVocabularyImport(input: unknown, now = new Date()): Impo
       notes: optionalString(raw.notes),
       tags: Array.isArray(raw.tags) ? raw.tags.filter((tag): tag is string => typeof tag === 'string') : [],
       priorityRank: typeof raw.priorityRank === 'number' && raw.priorityRank > 0 ? Math.floor(raw.priorityRank) : undefined,
+      commonAffixes: optionalCommonAffixes(raw.commonAffixes),
       createdAt: typeof raw.createdAt === 'string' ? raw.createdAt : timestamp,
       updatedAt: typeof raw.updatedAt === 'string' ? raw.updatedAt : timestamp,
       reviewLevel,

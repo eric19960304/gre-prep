@@ -19,6 +19,22 @@ describe('validateVocabularyImport', () => {
     expect(result.errors).toHaveLength(2)
   })
 
+  it('preserves only well-formed common affix clues', () => {
+    const result = validateVocabularyImport([{
+      word: 'fanciful',
+      definition: 'Imaginative.',
+      commonAffixes: [
+        { type: 'suffix', form: '-ful', meaning: 'full of, having, or characterized by' },
+        { type: 'root', form: 'fanci', meaning: 'invalid type' },
+        { type: 'prefix', form: '', meaning: 'missing form' },
+      ],
+    }])
+
+    expect(result.valid[0].commonAffixes).toEqual([
+      { type: 'suffix', form: '-ful', meaning: 'full of, having, or characterized by' },
+    ])
+  })
+
   it('rejects a non-array payload', () => {
     expect(validateVocabularyImport({ word: 'laconic' }).errors[0]).toContain('JSON array')
   })

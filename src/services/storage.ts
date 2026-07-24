@@ -4,7 +4,7 @@ import { createId } from '../utils/id'
 import { validateVocabularyImport } from '../utils/importValidation'
 
 const STORAGE_KEY = 'lexilo:vocabulary:v1'
-const SEED_REVISION = 2
+const SEED_REVISION = 3
 
 const seedByWord = new Map(
   (seedVocabulary as SeedVocabularyWord[]).map((seed) => [seed.word.toLocaleLowerCase(), seed]),
@@ -25,6 +25,7 @@ function createSeedData(now = new Date()): StoredVocabularyData {
       ...seed.partsOfSpeech,
     ],
     priorityRank: seed.rank,
+    commonAffixes: seed.commonAffixes,
     createdAt: timestamp,
     updatedAt: timestamp,
     reviewLevel: 0,
@@ -53,6 +54,7 @@ export const vocabularyStorage = {
                 return {
                   ...word,
                   priorityRank: seed.rank,
+                  commonAffixes: seed.commonAffixes,
                   tags: [
                     ...word.tags.filter((tag) => tag !== 'Top 100' && tag !== 'Top 300'),
                     ...(seed.rank <= 100 ? ['Top 100'] : seed.rank <= 300 ? ['Top 300'] : []),

@@ -76,7 +76,9 @@ The app is intentionally client-only and holds a small personal study dataset. l
 
 ## First-run data and persistence
 
-`src/data/seedVocabulary.json` contains the app-ready 1,000-word list with rank, part of speech, English definition, Traditional Chinese meaning, and available example sentence. The source dataset, including evidence signals used during ranking, is `gre_vocabulary_1000_zh_TW.json` in the project root.
+`src/data/seedVocabulary.json` contains the app-ready 1,000-word list with rank, part of speech, English definition, Traditional Chinese meaning, available example sentence, and a `commonAffixes` array. Each affix clue records whether it is a prefix or suffix, its displayed form, and its plain-English meaning. Words without a reliable, learner-useful clue have an empty array. The source dataset, including evidence signals used during ranking and an equivalent `common_affixes` field, is `gre_vocabulary_1000_zh_TW.json` in the project root.
+
+Run `npm run annotate:affixes` to validate both 1,000-word files and regenerate their affix annotations from the curated, offline rules in `scripts/annotate-vocabulary-affixes.mjs`. The annotation process does not call an external dictionary or web service.
 
 On the first visit, the storage service:
 
@@ -84,7 +86,7 @@ On the first visit, the storage service:
 2. Adds IDs, timestamps, review counters, and useful starter tags.
 3. Saves the result under the versioned `lexilo:vocabulary:v1` localStorage key.
 
-Every later visit loads that saved snapshot instead of rebuilding the seed. Edits, review results, mastery state, imports, and deletions persist across refreshes. When the bundled ranking is revised, the storage migration updates seed-word priority ranks and `Top 100`/`Top 300` tags while preserving the learner's review history and edits. Clearing site data in the browser resets the app to the bundled seed on the next launch.
+Every later visit loads that saved snapshot instead of rebuilding the seed. Edits, review results, mastery state, imports, and deletions persist across refreshes. When bundled seed metadata is revised, the storage migration updates seed-word priority ranks, affix clues, and `Top 100`/`Top 300` tags while preserving the learner's review history and edits. Clearing site data in the browser resets the app to the bundled seed on the next launch.
 
 The light/dark preference is stored separately under `lexilo:theme`.
 

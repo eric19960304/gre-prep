@@ -13,6 +13,7 @@ describe('vocabularyStorage seed ranking', () => {
     expect(data.words.map((word) => word.priorityRank)).toEqual(
       Array.from({ length: 1_000 }, (_, index) => index + 1),
     )
+    expect(data.words.find((word) => word.word === 'antipathy')?.commonAffixes).toHaveLength(2)
   })
 
   it('migrates an existing seed word to the audited rank without losing progress', () => {
@@ -23,6 +24,7 @@ describe('vocabularyStorage seed ranking', () => {
         tags: ['GRE 1000', 'Top 300', 'adjective'],
         correctCount: 7,
         reviewLevel: 4,
+        commonAffixes: undefined,
         priorityRank: undefined,
       })],
       reviewHistory: [],
@@ -37,6 +39,11 @@ describe('vocabularyStorage seed ranking', () => {
       correctCount: 7,
       reviewLevel: 4,
     })
+    expect(migrated.words[0].commonAffixes).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({ type: 'suffix', form: '-ous' }),
+      ]),
+    )
     expect(migrated.words[0].tags).toContain('Top 100')
     expect(migrated.words[0].tags).not.toContain('Top 300')
   })

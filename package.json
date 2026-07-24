@@ -7,6 +7,7 @@
     "dev": "vite",
     "preview": "vite preview",
     "build": "tsc -b && vite build",
+    "annotate:affixes": "node scripts/annotate-vocabulary-affixes.mjs",
     "generate:practice": "node scripts/build-verbal-practice.mjs",
     "typecheck": "tsc -b --pretty false",
     "test": "vitest run",
