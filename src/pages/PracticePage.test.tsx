@@ -1,16 +1,27 @@
-import { fireEvent, render, screen, waitFor } from '@testing-library/react'
-import { beforeEach, describe, expect, it } from 'vitest'
+import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { PRACTICE_STORAGE_KEY } from '../services/practiceStorage'
 import { PracticePage } from './PracticePage'
 
 describe('PracticePage', () => {
-  beforeEach(() => localStorage.clear())
+  beforeEach(() => {
+    localStorage.clear()
+    vi.spyOn(Math, 'random').mockReturnValue(0)
+  })
+
+  afterEach(() => {
+    cleanup()
+    vi.restoreAllMocks()
+  })
 
   it('submits an answer, reveals the explanation, and saves it in history', async () => {
     render(<PracticePage />)
 
     expect(screen.queryByLabelText('Practice progress')).not.toBeInTheDocument()
     expect(screen.queryByRole('button', { name: /Question 2, Reading Comprehension/ })).not.toBeInTheDocument()
+    expect(screen.getByText('Question type')).toBeInTheDocument()
+    expect(screen.getByRole('combobox', { name: 'Answer status' })).toHaveValue('unanswered')
+    expect(screen.getByText('100 unanswered')).toBeInTheDocument()
 
     fireEvent.click(screen.getByRole('radio', { name: /Tree-planting plans should account/ }))
     fireEvent.click(screen.getByRole('button', { name: /Submit answer/ }))
@@ -25,5 +36,51 @@ describe('PracticePage', () => {
     fireEvent.click(screen.getByRole('button', { name: /^History/ }))
     expect(screen.getByLabelText('Practice progress')).toBeInTheDocument()
     expect(screen.getByText('Question 1 · RC')).toBeInTheDocument()
+  })
+
+  it('opens a random question while excluding previously answered questions', () => {
+    localStorage.setItem(PRACTICE_STORAGE_KEY, JSON.stringify({
+      version: 1,
+      attempts: [{
+        id: 'attempt-1',
+        questionId: 'rc-001',
+        response: { main: ['C'] },
+        isCorrect: true,
+        answeredAt: '2026-07-24T12:00:00.000Z',
+      }],
+    }))
+
+    render(<PracticePage />)
+
+    expect(screen.getByText('Question 2 of 100')).toBeInTheDocument()
+  })
+
+  it('returns to Unanswered after a page refresh', () => {
+    const firstRender = render(<PracticePage />)
+    fireEvent.change(screen.getByRole('combobox', { name: 'Answer status' }), {
+      target: { value: 'all' },
+    })
+    expect(screen.getByRole('combobox', { name: 'Answer status' })).toHaveValue('all')
+
+    firstRender.unmount()
+    render(<PracticePage />)
+
+    expect(screen.getByRole('combobox', { name: 'Answer status' })).toHaveValue('unanswered')
+  })
+
+  it('retries the same question instead of moving to the next one', () => {
+    render(<PracticePage />)
+
+    const correctChoice = screen.getByRole('radio', { name: /Tree-planting plans should account/ })
+    fireEvent.click(correctChoice)
+    fireEvent.click(screen.getByRole('button', { name: /Submit answer/ }))
+
+    expect(screen.getByText('Correct.')).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /Next question/ })).toBeEnabled()
+    fireEvent.click(screen.getByRole('button', { name: /Try again/ }))
+
+    expect(screen.getByText('Question 1 of 100')).toBeInTheDocument()
+    expect(screen.queryByText('Correct.')).not.toBeInTheDocument()
+    expect(screen.getByRole('radio', { name: /Tree-planting plans should account/ })).toHaveAttribute('aria-checked', 'false')
   })
 })

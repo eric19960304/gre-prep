@@ -39,6 +39,14 @@ const typeFilters: { id: PracticeTypeFilter; label: string }[] = [
   { id: 'sentence-equivalence', label: 'Equivalence' },
 ]
 
+function randomUnansweredQuestion(
+  attempts: PracticeAttempt[],
+): PracticeQuestion | undefined {
+  const answeredIds = new Set(attempts.map((attempt) => attempt.questionId))
+  const unanswered = practiceBank.questions.filter((question) => !answeredIds.has(question.id))
+  return unanswered[Math.floor(Math.random() * unanswered.length)]
+}
+
 function BlankText({ text }: { text: string }) {
   const labels = ['(i)', '(ii)', '(iii)']
   return (
@@ -81,10 +89,13 @@ export function PracticePage() {
   const { attempts, recordAttempt } = usePracticeHistory()
   const [panel, setPanel] = useState<'practice' | 'history'>('practice')
   const [typeFilter, setTypeFilter] = useState<PracticeTypeFilter>('all')
-  const [statusFilter, setStatusFilter] = useState<PracticeStatusFilter>('all')
-  const [questionId, setQuestionId] = useState(practiceBank.questions[0].id)
+  const [statusFilter, setStatusFilter] = useState<PracticeStatusFilter>('unanswered')
+  const [questionId, setQuestionId] = useState(
+    () => randomUnansweredQuestion(attempts)?.id ?? practiceBank.questions[0].id,
+  )
   const [response, setResponse] = useState<PracticeResponse>({})
   const [submittedAttempt, setSubmittedAttempt] = useState<PracticeAttempt | null>(null)
+  const [isRetrying, setIsRetrying] = useState(false)
 
   const passageById = useMemo(
     () => new Map(practiceBank.passages.map((passage) => [passage.id, passage])),
@@ -114,25 +125,39 @@ export function PracticePage() {
     ? passageById.get(currentQuestion.passageId)
     : undefined
   const currentIndex = filteredQuestions.findIndex((question) => question.id === currentQuestion.id)
+  const canMoveNext = filteredQuestions.length > 0
+    && (currentIndex < 0 || currentIndex < filteredQuestions.length - 1)
   const isComplete = isPracticeAnswerComplete(currentQuestion, response)
   const uniqueAnswered = new Set(attempts.map((attempt) => attempt.questionId)).size
   const correctAttempts = attempts.filter((attempt) => attempt.isCorrect).length
   const accuracy = attempts.length ? Math.round((correctAttempts / attempts.length) * 100) : 0
 
   useEffect(() => {
-    if (!submittedAttempt && filteredQuestions.length && !filteredQuestions.some((question) => question.id === questionId)) {
+    if (!submittedAttempt && !isRetrying && filteredQuestions.length && !filteredQuestions.some((question) => question.id === questionId)) {
       setQuestionId(filteredQuestions[0].id)
       setResponse({})
       setSubmittedAttempt(null)
     }
-  }, [filteredQuestions, questionId, submittedAttempt])
+  }, [filteredQuestions, isRetrying, questionId, submittedAttempt])
 
   const openQuestion = (nextQuestionId: string, attempt?: PracticeAttempt) => {
     setQuestionId(nextQuestionId)
     setResponse(attempt?.response ?? {})
     setSubmittedAttempt(attempt ?? null)
+    setIsRetrying(false)
     setPanel('practice')
     window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  const startPractice = () => {
+    const randomQuestion = randomUnansweredQuestion(attempts)
+    setTypeFilter('all')
+    setStatusFilter('unanswered')
+    setResponse({})
+    setSubmittedAttempt(null)
+    setIsRetrying(false)
+    if (randomQuestion) setQuestionId(randomQuestion.id)
+    setPanel('practice')
   }
 
   const selectChoice = (groupId: string, choiceId: string) => {
@@ -155,16 +180,21 @@ export function PracticePage() {
     const savedResponse = Object.fromEntries(
       Object.entries(response).map(([groupId, answers]) => [groupId, [...answers]]),
     )
+    setIsRetrying(false)
     setSubmittedAttempt(recordAttempt(currentQuestion, savedResponse))
   }
 
   const tryAgain = () => {
     setResponse({})
     setSubmittedAttempt(null)
+    setIsRetrying(true)
   }
 
   const move = (direction: -1 | 1) => {
-    if (currentIndex < 0) return
+    if (currentIndex < 0) {
+      if (direction === 1 && filteredQuestions.length) openQuestion(filteredQuestions[0].id)
+      return
+    }
     const next = filteredQuestions[currentIndex + direction]
     if (next) openQuestion(next.id)
   }
@@ -188,7 +218,7 @@ export function PracticePage() {
         <div className="inline-flex self-start rounded-2xl border border-ink/8 bg-white/70 p-1.5 dark:border-white/8 dark:bg-white/5">
           <button
             type="button"
-            onClick={() => setPanel('practice')}
+            onClick={startPractice}
             className={`flex min-h-10 items-center gap-2 rounded-xl px-4 text-xs font-black transition ${panel === 'practice' ? 'bg-ink text-white dark:bg-white dark:text-ink' : 'text-muted hover:text-ink dark:hover:text-white'}`}
           >
             <FileQuestion size={16} />Practice
@@ -266,7 +296,7 @@ export function PracticePage() {
                 <span className="mx-auto grid size-14 place-items-center rounded-2xl bg-accent/10 text-accent"><History size={25} /></span>
                 <h2 className="mt-5 font-display text-2xl font-black text-ink dark:text-white">No attempts yet</h2>
                 <p className="mx-auto mt-2 max-w-sm text-sm leading-relaxed text-muted">Submit a practice question and its answer, result, and explanation will be available here.</p>
-                <button type="button" className="button-primary mt-5" onClick={() => setPanel('practice')}>Start practicing</button>
+                <button type="button" className="button-primary mt-5" onClick={startPractice}>Start practicing</button>
               </div>
             </div>
           )}
@@ -277,29 +307,35 @@ export function PracticePage() {
             <div className="flex items-center gap-2">
               <ListFilter className="text-accent" size={17} />
               <h2 className="text-sm font-black text-ink dark:text-white">Practice filters</h2>
-              <span className="ml-auto text-[10px] font-bold text-muted">{filteredQuestions.length} shown</span>
+              <span className="ml-auto text-[10px] font-bold text-muted">
+                {filteredQuestions.length} {statusFilter === 'unanswered' ? 'unanswered' : 'shown'}
+              </span>
             </div>
-            <div className="scrollbar-none -mx-1 mt-4 flex gap-2 overflow-x-auto px-1 pb-1 lg:grid lg:grid-cols-2">
-              {typeFilters.map((filter) => (
-                <button
-                  key={filter.id}
-                  type="button"
-                  onClick={() => setTypeFilter(filter.id)}
-                  className={`shrink-0 rounded-xl px-3 py-2 text-[10px] font-black transition ${typeFilter === filter.id ? 'bg-ink text-white dark:bg-white dark:text-ink' : 'bg-ink/[.045] text-muted hover:bg-ink/8 dark:bg-white/[.06] dark:text-stone-300'}`}
-                >
-                  {filter.label}
-                </button>
-              ))}
+            <div className="mt-4">
+              <p className="detail-label">Question type</p>
+              <div className="scrollbar-none -mx-1 mt-2 flex gap-2 overflow-x-auto px-1 pb-1 lg:grid lg:grid-cols-2">
+                {typeFilters.map((filter) => (
+                  <button
+                    key={filter.id}
+                    type="button"
+                    aria-pressed={typeFilter === filter.id}
+                    onClick={() => { setIsRetrying(false); setTypeFilter(filter.id) }}
+                    className={`shrink-0 rounded-xl px-3 py-2 text-[10px] font-black transition ${typeFilter === filter.id ? 'bg-ink text-white dark:bg-white dark:text-ink' : 'bg-ink/[.045] text-muted hover:bg-ink/8 dark:bg-white/[.06] dark:text-stone-300'}`}
+                  >
+                    {filter.label}
+                  </button>
+                ))}
+              </div>
             </div>
-            <label className="mt-3 block">
-              <span className="sr-only">Filter by answer status</span>
+            <label className="mt-4 block">
+              <span className="detail-label mb-2 block">Answer status</span>
               <select
                 className="select-input"
                 value={statusFilter}
-                onChange={(event) => setStatusFilter(event.target.value as PracticeStatusFilter)}
+                onChange={(event) => { setIsRetrying(false); setStatusFilter(event.target.value as PracticeStatusFilter) }}
               >
+                <option value="unanswered">Unanswered (default)</option>
                 <option value="all">All statuses</option>
-                <option value="unanswered">Unanswered</option>
                 <option value="answered">Answered</option>
                 <option value="incorrect">Incorrect</option>
               </select>
@@ -404,15 +440,20 @@ export function PracticePage() {
                     </section>
                   )}
 
-                  <div className="mt-7 flex flex-col-reverse gap-3 border-t border-ink/8 pt-5 dark:border-white/8 sm:flex-row sm:items-center sm:justify-between">
-                    <div className="grid grid-cols-2 gap-2">
-                      <button type="button" className="button-ghost gap-2" disabled={currentIndex <= 0} onClick={() => move(-1)}><ArrowLeft size={17} />Previous</button>
-                      <button type="button" className="button-ghost gap-2" disabled={currentIndex < 0 || currentIndex >= filteredQuestions.length - 1} onClick={() => move(1)}>Next<ArrowRight size={17} /></button>
-                    </div>
+                  <div className="mt-7 border-t border-ink/8 pt-5 dark:border-white/8">
                     {submittedAttempt ? (
-                      <button type="button" className="button-secondary gap-2" onClick={tryAgain}><RotateCcw size={17} />Try again</button>
+                      <div className="grid gap-3 sm:grid-cols-2">
+                        <button type="button" className="button-secondary gap-2" onClick={tryAgain}><RotateCcw size={17} />Try again</button>
+                        <button type="button" className="button-primary gap-2" disabled={!canMoveNext} onClick={() => move(1)}>Next question<ArrowRight size={17} /></button>
+                      </div>
                     ) : (
-                      <button type="button" className="button-primary min-w-36 gap-2" disabled={!isComplete} onClick={submit}><Target size={17} />Submit answer</button>
+                      <div className="flex flex-col-reverse gap-3 sm:flex-row sm:items-center sm:justify-between">
+                        <div className="grid grid-cols-2 gap-2">
+                          <button type="button" className="button-ghost gap-2" disabled={currentIndex <= 0} onClick={() => move(-1)}><ArrowLeft size={17} />Previous</button>
+                          <button type="button" className="button-ghost gap-2" disabled={!canMoveNext} onClick={() => move(1)}>Next<ArrowRight size={17} /></button>
+                        </div>
+                        <button type="button" className="button-primary min-w-36 gap-2" disabled={!isComplete} onClick={submit}><Target size={17} />Submit answer</button>
+                      </div>
                     )}
                   </div>
                 </div>
@@ -428,7 +469,7 @@ export function PracticePage() {
                 <span className="mx-auto grid size-14 place-items-center rounded-2xl bg-accent/10 text-accent"><ListFilter size={25} /></span>
                 <h2 className="mt-5 font-display text-2xl font-black text-ink dark:text-white">No questions match</h2>
                 <p className="mt-2 text-sm text-muted">Change the type or answer-status filter to continue.</p>
-                <button type="button" className="button-primary mt-5" onClick={() => { setTypeFilter('all'); setStatusFilter('all') }}>Clear filters</button>
+                <button type="button" className="button-primary mt-5" onClick={() => { setIsRetrying(false); setTypeFilter('all'); setStatusFilter('all') }}>Clear filters</button>
               </div>
             </section>
           )}
